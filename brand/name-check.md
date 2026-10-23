@@ -10,8 +10,8 @@ updated: 2026-10-23
 **Decision (2026-10-23):** the founder will not use "Sada" because of the conflicts below. Alternatives
 are listed at the end.
 
-**Direction (2026-10-23):** premium, with "effortless" as the tagline idea. Shortlist for visual comparison:
-Misura, Giusta, Samt, Kanso, with Nawa for contrast.
+**Direction (2026-10-23):** premium, non-Arabic name, with "effortless" as the tagline idea. Shortlist for
+visual comparison: Misura, Giusta, Sobria, Kanso, Tacita. Arabic names below are kept for the record only.
 
 ## "Sada" (سادة)
 
