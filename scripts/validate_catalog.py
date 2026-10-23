@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Validate every product folder under products/ and print the catalog.
 
-Checks each products/PRD-###-slug/ folder has the required files and that
-product.md front matter has the required fields with valid values.
+Checks each products/PRD-###-slug/ folder has the required files (plus
+tech-pack.md and size-chart.md for `type: apparel`) and that product.md
+front matter has the required fields with valid values.
 Exit code 1 if any product is invalid. Standard library only.
 """
 import re
@@ -12,6 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PRODUCTS = ROOT / "products"
 REQUIRED_FILES = ["product.md", "specs.md", "sourcing.md", "costing.md", "content.md"]
+APPAREL_FILES = ["tech-pack.md", "size-chart.md"]
 REQUIRED_FIELDS = ["id", "name", "category", "status", "price", "currency"]
 STATUSES = {"concept", "development", "sampling", "approved", "launched", "retired"}
 FOLDER_RE = re.compile(r"^(PRD-\d{3})-[a-z0-9-]+$")
@@ -34,7 +36,7 @@ def validate(folder):
     errors = []
     match = FOLDER_RE.match(folder.name)
     if not match:
-        return [f"folder name must look like PRD-001-short-name"], None
+        return ["folder name must look like PRD-001-short-name"], None
     for name in REQUIRED_FILES:
         if not (folder / name).is_file():
             errors.append(f"missing {name}")
@@ -48,6 +50,10 @@ def validate(folder):
                 errors.append(f"product.md: '{key}' is empty")
         if fields.get("id") and fields["id"] != match.group(1):
             errors.append(f"product.md: id {fields['id']} does not match folder {match.group(1)}")
+        if fields.get("type") == "apparel":
+            for name in APPAREL_FILES:
+                if not (folder / name).is_file():
+                    errors.append(f"apparel product missing {name}")
         if fields.get("status") and fields["status"] not in STATUSES:
             errors.append(f"product.md: status '{fields['status']}' not in {sorted(STATUSES)}")
         try:
@@ -59,7 +65,8 @@ def validate(folder):
 
 
 def main():
-    folders = sorted(p for p in PRODUCTS.iterdir() if p.is_dir() and not p.name.startswith("_"))
+    skip = {"collections"}
+    folders = sorted(p for p in PRODUCTS.iterdir() if p.is_dir() and not p.name.startswith("_") and p.name not in skip)
     failed = False
     ids = {}
     rows = []

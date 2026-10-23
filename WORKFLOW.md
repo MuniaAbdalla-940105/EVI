@@ -4,7 +4,7 @@ This is how Sada goes from an idea to a launched brand with products, a website/
 operations, all managed in this repository with Claude Code.
 
 ```
- 0 Foundation ─► 1 Discovery ─► 2 Business ─► 3 Brand ─┬─► 4 Products ──────────────┐
+ 0 Foundation ─► 1 Discovery ─► 2 Business ─► 3 Brand ─┬─► 4 Collect./products─────────────┐
                  (market+users)  analysis      identity │                            ▼
                                                         └─► 5 System ─► 6 UX/UI ─► 7 Build ─► 8 Deploy ─► 9 Launch & grow
                                                             analysis    + design              & operate      │
@@ -42,6 +42,76 @@ phase 1: the workflow is a loop, not a line.
 | GitHub integration | built in | Issues, PRs, CI status, review comments |
 | Artifacts | built in | Shareable pages: brand book preview, pitch deck, dashboards |
 | Scheduled tasks | built in | e.g. a monthly competitor scan or weekly status report |
+
+---
+
+## Who does what: the maestro, the specialists, and sessions
+
+```
+                         YOU (founder, decision maker)
+                    approve gates · choose direction · set prices
+                                     │
+                         MAESTRO = main Claude session
+              runs /orchestrate: plans, delegates, integrates, reviews
+                                     │
+     ┌──────────────┬───────────────┼────────────────┬──────────────────┐
+  Research &     Brand &        Clothing          Software          Review
+  business       content        products                            (every PR)
+  market-analyst brand-designer fashion-designer  system-analyst    consistency-reviewer
+  business-      content-writer textile-specialist ux-designer      code-reviewer
+  analyst                       garment-technologist engineer       security-reviewer
+                                product-developer   qa-engineer
+                                                    devops
+                                     │
+                    THE REPO = shared memory for everyone
+        (docs, IDs, standards, decisions; nothing important lives only in a chat)
+```
+
+**You** are the decision maker. Claude proposes and builds; you approve each phase gate, the brand
+direction, prices, suppliers, and the tech stack (ADRs stay `proposed` until you accept them).
+
+**The maestro** is the Claude session you're talking to. With `/orchestrate "<goal>"` it plans
+the work against this workflow, launches specialist subagents in parallel, reads and reconciles
+their output, runs the reviewers, and comes back with results and the decisions you need to make.
+
+**Subagents** (`.claude/agents/`) are specialists launched by the maestro inside one session. Each
+starts with a fresh context, does one task, and reports back to the maestro only. **Subagents don't
+talk to each other**: the maestro carries information between them, and they share work through
+files in the repo.
+
+**Sessions.** Use one session per workstream that runs for hours or days, for example "SS27
+collection", "brand identity", "build the store". Sessions don't share memory. They coordinate
+through:
+1. **The repo** (main channel): each session works on its own branch and merges via PR, so every
+   other session sees approved work on `main`.
+2. **GitHub issues and PRs**: what's planned, in progress, blocked, and why.
+3. **Direct messages** (cloud sessions only): a cloud session can start another session and send it
+   a task, and sessions can message each other. Useful for hand-offs, but the result still has to land
+   in the repo.
+
+A good rhythm: one maestro session per phase or workstream; it delegates to subagents; it merges to `main`;
+the next session starts from what's on `main`.
+
+### Quality and review gates
+
+| Check | Who / what | When |
+| --- | --- | --- |
+| Consistency (IDs, traceability, tokens, voice, margins, sources) | `consistency-reviewer` | Every PR |
+| Code correctness, tests, contract, accessibility, performance | `code-reviewer` agent, built-in `/code-review` | Every code PR |
+| Security (OWASP, payments, secrets, personal data, dependencies) | `security-reviewer` agent, built-in `/security-review` | PRs touching auth, payments, data, infra; every release |
+| Automated tests (unit, end-to-end, accessibility, performance) | `qa-engineer` writes them; CI runs them | Every code PR |
+| Product catalog and tokens valid | CI (`scripts/validate_catalog.py`) | Every PR |
+| Dependency updates and vulnerability alerts | Dependabot; CodeQL once code exists | Weekly / every PR |
+| Standards baseline | `docs/standards.md`, which every agent follows | Always |
+
+### Staying current (2026 and beyond)
+
+Claude's built-in knowledge has a cutoff, so the agents don't *assume* they know current trends:
+- **Standards** (WCAG, OWASP, ISO textile tests, labelling law) live in `docs/standards.md`, with a
+  "checked" date. Verify them against the official source before a real decision.
+- **Trends** (fashion, color, fabrics, e-commerce UX, marketing) are researched fresh with `/trend-research`,
+  saved as dated, sourced reports in `docs/01-market/trends/`. Design agents must cite the latest report or
+  research it first. Run it each season, and schedule it quarterly if you like.
 
 ---
 
@@ -115,25 +185,35 @@ the SVG into Figma/Illustrator and commit the result back to `brand/logo/final/`
 
 **Gate:** final logo committed; tokens approved; voice guide approved.
 
-## Phase 4: Products (runs per product, repeatedly)
+## Phase 4: Collections and products (repeats every season or drop)
 
-**Goal:** every product the brand sells is fully specified, costed, and has its content ready.
+**Goal:** every product the brand sells is designed, specified, sourced, costed, and has its content ready.
 
-Each product is a folder `products/PRD-###-slug/`:
+For clothing, work collection-first:
 
-| File | Contents |
-| --- | --- |
-| `product.md` | Concept, target persona, positioning, variants, status, links |
-| `specs.md` | Materials, dimensions, components, care, certifications |
-| `sourcing.md` | Suppliers, MOQ, lead time, samples log |
-| `costing.md` | Bill of materials, landed cost, price, margin |
-| `content.md` | Name, tagline, short + long description, SEO, social captions, packaging text, FAQs |
-| `assets/` | Sketches, renders, photos, packaging artwork |
+1. `/trend-research "<category> <season> <region>"` produces a dated trend report.
+2. `/new-collection "<season>"`: `fashion-designer` builds the concept, mood, color story, and line plan;
+   `textile-specialist` builds the fabric story in `materials/fabrics/FAB-###`. You approve the line plan.
+3. Each style becomes `products/PRD-###-slug/` from `_template-apparel/`:
 
-**Claude Code:** `/new-product "<idea>"` creates the folder from the template, fills each
-file, and checks margin against `pricing.md`. CI runs `scripts/validate_catalog.py`.
+| File | Contents | Specialist |
+| --- | --- | --- |
+| `product.md` | Concept, persona, positioning, collection, fabrics, variants, status | fashion-designer / product-developer |
+| `tech-pack.md` | Flats, BOM, construction, points of measure, grading, colorways, labels, QC, sample log | garment-technologist |
+| `size-chart.md` | Customer size chart and fit notes | garment-technologist |
+| `specs.md` | Materials summary, care (ISO 3758), compliance, packaging | textile-specialist |
+| `sourcing.md` | Factories, MOQ, lead time, samples | product-developer |
+| `costing.md` | BOM cost, landed cost, price, margin | product-developer |
+| `content.md` | Names, descriptions, SEO, social, label text, FAQs | content-writer |
+| `assets/` | Flats (SVG), sketches, photos, packaging artwork | fashion-designer |
 
-**Gate:** product `status: approved` requires specs, costing within target margin, and approved content.
+Non-clothing products use `products/_template/`.
+
+**Claude Code:** `/new-collection`, `/new-product`, or `/orchestrate "prepare the SS27 collection"`.
+CI runs `scripts/validate_catalog.py` (apparel products must include a tech pack and size chart).
+
+**Gate:** product `status: approved` requires an approved PP sample, fabric tests passed, costing
+within target margin, and approved content.
 
 ## Phase 5: System analysis
 
@@ -225,6 +305,6 @@ and product `content.md`. A scheduled task can run `/project-status` weekly.
 | 3–7 | 5–10 customer interviews, synthesis, personas | `/user-research` |
 | 6–8 | Business model, BRD, pricing | `/business-analysis` |
 | 8–10 | Brand strategy, logo concepts, tokens | `/brand-identity` |
-| 9–10 | First 1–3 products | `/new-product` |
-| 10–12 | SRS, stories, architecture, stack ADR | `/system-analysis`, `/adr` |
+| 8–10 | Trend report and first collection line plan | `/trend-research`, `/new-collection` |
+| 10–12 | SRS, stories, architecture; accept or change ADR-0001 (stack) | `/system-analysis`, `/adr` |
 | 12–14 | Core flows, wireframes, prototype | `/ux-design` |
