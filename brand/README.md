@@ -4,6 +4,7 @@ Who Sada is and how it looks and sounds. Filled in phase 3.
 
 | File | Contents | Template |
 | --- | --- | --- |
+| `name-check.md` | Existing brands with the same or similar name; trademark next steps | — |
 | `strategy.md` | Purpose, positioning, personality, promise | `templates/brand/strategy.md` |
 | `voice-and-tone.md` | How Sada writes, with examples | `templates/brand/voice-and-tone.md` |
 | `logo/brief.md` | Logo brief | `templates/brand/logo-brief.md` |
