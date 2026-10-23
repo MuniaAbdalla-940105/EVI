@@ -69,6 +69,8 @@ phase 1: the workflow is a loop, not a line.
 
 **You** are the decision maker. Claude proposes and builds; you approve each phase gate, the brand
 direction, prices, suppliers, and the tech stack (ADRs stay `proposed` until you accept them).
+Each phase below lists what Claude needs from you, and every Claude response ends with a
+"What I need from you" list.
 
 **The maestro** is the Claude session you're talking to. With `/orchestrate "<goal>"` it plans
 the work against this workflow, launches specialist subagents in parallel, reads and reconciles
@@ -118,6 +120,7 @@ Claude's built-in knowledge has a cutoff, so the agents don't *assume* they know
 ## Phase 0: Foundation
 
 **Goal:** agree what Sada is and set up the workspace.
+**You provide:** what Sada sells, for whom, where, at what price level; your vision in your own words; budget and launch date.
 
 | Do | Output | Claude Code |
 | --- | --- | --- |
@@ -131,6 +134,7 @@ Claude's built-in knowledge has a cutoff, so the agents don't *assume* they know
 ## Phase 1: Discovery (market analysis and user research)
 
 **Goal:** prove the market exists and understand who buys.
+**You provide:** target region and customer; competitors you already know; 5–10 people from your target group to interview (or approval to start with assumption-based personas).
 
 | Do | Output |
 | --- | --- |
@@ -151,6 +155,7 @@ sources), `/user-research` (interview guide, synthesis, personas). Run the
 ## Phase 2: Business analysis
 
 **Goal:** a business that makes money, stated as requirements.
+**You provide:** budget, target margin, price range, sales channels (online only, marketplaces, boutiques), and approval of the BRD and pricing.
 
 | Do | Output |
 | --- | --- |
@@ -169,6 +174,7 @@ linking every `BR` to the `MI`/`PER` that justifies it.
 ## Phase 3: Brand identity
 
 **Goal:** a recognisable, consistent brand.
+**You provide:** the name's meaning and story, brands you like and dislike, any must-have colors or symbols, languages (e.g. Arabic and English), and your pick of logo concept.
 
 | Do | Output |
 | --- | --- |
@@ -188,13 +194,14 @@ the SVG into Figma/Illustrator and commit the result back to `brand/logo/final/`
 ## Phase 4: Collections and products (repeats every season or drop)
 
 **Goal:** every product the brand sells is designed, specified, sourced, costed, and has its content ready.
+**You provide:** season and launch date, number of styles, target cost and price per style, approval of the line plan, known factories or mills, and samples' fit feedback.
 
 For clothing, work collection-first:
 
 1. `/trend-research "<category> <season> <region>"` produces a dated trend report.
 2. `/new-collection "<season>"`: `fashion-designer` builds the concept, mood, color story, and line plan;
    `textile-specialist` builds the fabric story in `materials/fabrics/FAB-###`. You approve the line plan.
-3. Each style becomes `products/PRD-###-slug/` from `_template-apparel/`:
+3. Each style becomes `products/PRD-###-slug/` from `templates/products/apparel/`:
 
 | File | Contents | Specialist |
 | --- | --- | --- |
@@ -207,7 +214,7 @@ For clothing, work collection-first:
 | `content.md` | Names, descriptions, SEO, social, label text, FAQs | content-writer |
 | `assets/` | Flats (SVG), sketches, photos, packaging artwork | fashion-designer |
 
-Non-clothing products use `products/_template/`.
+Non-clothing products use `templates/products/product/`.
 
 **Claude Code:** `/new-collection`, `/new-product`, or `/orchestrate "prepare the SS27 collection"`.
 CI runs `scripts/validate_catalog.py` (apparel products must include a tech pack and size chart).
@@ -218,6 +225,7 @@ within target margin, and approved content.
 ## Phase 5: System analysis
 
 **Goal:** turn business requirements into a buildable system specification.
+**You provide:** must-have website features, markets and currencies, payment and shipping preferences, and acceptance of the tech stack (ADR-0001).
 
 | Do | Output |
 | --- | --- |
@@ -237,6 +245,7 @@ within target margin, and approved content.
 ## Phase 6: UX/UI and design system
 
 **Goal:** validated designs and a component library built on the brand tokens.
+**You provide:** feedback on flows and prototypes, and 5 people for usability tests.
 
 | Do | Output |
 | --- | --- |
@@ -256,6 +265,7 @@ maintains tokens and component specs.
 ## Phase 7: Build (frontend and backend)
 
 **Goal:** working software, story by story.
+**You provide:** access to accounts (Shopify, hosting, domain) set up by you, and review of each finished feature on the preview link.
 
 - `apps/web`: frontend, consumes `design-system/tokens` (generated into CSS variables/theme).
 - `apps/api`: backend, implements `api/openapi.yaml`.
@@ -269,6 +279,7 @@ then implements, tests, and opens a PR. Use `/code-review` before merging.
 ## Phase 8: Deploy and operate
 
 **Goal:** reliable, repeatable releases.
+**You provide:** domain name, legal pages (terms, privacy, returns) reviewed by a lawyer, and go/no-go for launch.
 
 | Do | Output |
 | --- | --- |
@@ -282,6 +293,7 @@ then implements, tests, and opens a PR. Use `/code-review` before merging.
 ## Phase 9: Launch and grow
 
 **Goal:** customers, revenue, learning.
+**You provide:** launch date, marketing budget, social accounts, and photos from the photoshoot.
 
 | Do | Output |
 | --- | --- |

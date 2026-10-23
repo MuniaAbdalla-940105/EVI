@@ -13,7 +13,7 @@ Input: `$ARGUMENTS`. Read the related user stories, personas, `brand/voice-and-t
 2. **Flow:** `flows/<flow>.md`: Mermaid flowchart covering the happy path, errors, and edge cases,
    linked to `US-###`.
 3. **Wireframes:** low-fi HTML in `wireframes/<flow>/` (mobile first), greyscale.
-4. **Screen specs:** `ui/SCR-###-slug.md` from the template: layout, components from
+4. **Screen specs:** `ui/SCR-###-slug.md` from `templates/ux/screen.md`: layout, components from
    `design-system/components/`, all states, final copy in brand voice, a11y notes, analytics events.
    Add the `SCR` to the story's `screens:` list.
 5. **Prototype (optional):** a clickable hi-fi HTML prototype using the token values, published

@@ -4,6 +4,27 @@ This repo holds the **whole Sada business**, not just its software. Treat every 
 as a deliverable that people outside engineering (founders, designers, suppliers,
 marketers) will read.
 
+## How Claude communicates
+
+- Be direct. Lead with the answer or the result. No filler, no repeating the question, no long preambles.
+- Use short sentences, tables, and lists. Explain jargon in plain words the first time.
+- Report facts: what was done, what was checked, what failed. Don't overstate.
+- **End every response with "What I need from you"**: a numbered list of the specific inputs,
+  files, or decisions needed, each with a recommended answer where one makes sense. If nothing is needed,
+  write "Nothing. Next I will …".
+- At the start of a phase or skill, first list what's missing from the founder and ask for it, instead of guessing.
+
+## Keep the repo clean
+
+- A file exists only when it has real content. No empty stubs, placeholder files, `.gitkeep`, or
+  half-filled templates in working folders. Create a folder when its first real file is written.
+- Templates live only in `templates/`. Copy a template, fill it, and delete any section that doesn't
+  apply. Never leave HTML comments or `<placeholder>` text in a finished document.
+- No drafts, scratch notes, logs, or exports outside their intended folder. Temporary work goes outside the repo.
+- File names: lowercase, hyphenated, prefixed with their ID where they have one (`PER-001-layla.md`).
+- When you add, rename, or remove a file, update its folder's `README.md` table if the README lists it.
+- Before committing, run `git status` and remove anything that doesn't belong.
+
 ## Where things go
 
 | If you are producing… | Put it in… |
@@ -20,14 +41,14 @@ marketers) will read.
 | Brand strategy, voice, logo, brand book | `brand/` |
 | Colors, type, spacing, radii (as data) | `design-system/tokens/*.json`, **never hard-code these elsewhere** |
 | A collection or drop | `products/collections/COL-###-slug.md` |
-| A product | `products/PRD-###-slug/` copied from `products/_template-apparel/` (clothing) or `products/_template/` |
+| A product | `products/PRD-###-slug/` copied from `templates/products/apparel/` (clothing) or `templates/products/product/` |
 | Fabrics and trims | `materials/fabrics/FAB-###-slug.md`, `materials/trims/TRM-###-slug.md` |
 | Marketing copy, posts, emails, translations | `content/` |
+| Templates for all of the above | `templates/` (only there) |
 | Code | `apps/web`, `apps/api`, `infra` |
 | Legal, finance, suppliers, support | `operations/` |
 
-Each folder has a `README.md` that lists its expected files. Read it before writing there,
-and keep its index up to date when you add a file.
+Each folder has a `README.md` listing the files that belong there and their template. Read it before writing.
 
 ## Document rules
 

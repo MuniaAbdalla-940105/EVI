@@ -1,13 +1,15 @@
 # Brand
 
-| Path | Purpose |
-| --- | --- |
-| `strategy.md` | Purpose, positioning statement, personality, archetype, brand promise |
-| `voice-and-tone.md` | How Sada sounds, with do/don't examples per channel and language |
-| `logo/brief.md` | Logo brief: meaning, constraints, usage contexts |
-| `logo/concepts/` | SVG concepts with rationale (kept for history) |
-| `logo/final/` | Master SVGs (`logo-primary.svg`, `logo-mark.svg`, `logo-mono.svg`) + generated exports |
-| `typography.md`, `color.md` | Rationale and usage; actual values live in `design-system/tokens/` |
-| `imagery.md` | Photography, illustration, and iconography direction |
-| `brand-book.md` | Compiled guidelines for partners and agencies |
-| `assets/` | Templates: social posts, business cards, letterhead, packaging dielines |
+Who Sada is and how it looks and sounds. Filled in phase 3.
+
+| File | Contents | Template |
+| --- | --- | --- |
+| `strategy.md` | Purpose, positioning, personality, promise | `templates/brand/strategy.md` |
+| `voice-and-tone.md` | How Sada writes, with examples | `templates/brand/voice-and-tone.md` |
+| `logo/brief.md` | Logo brief | `templates/brand/logo-brief.md` |
+| `logo/concepts/` | SVG concepts with rationale | — |
+| `logo/final/` | Master SVGs and generated exports | — |
+| `color.md`, `typography.md` | Rationale; values live in `design-system/tokens/` | — |
+| `imagery.md` | Photography, illustration, icons | — |
+| `brand-book.md` | Compiled guidelines | — |
+| `assets/` | Social, stationery, packaging templates | — |

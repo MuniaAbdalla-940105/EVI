@@ -13,7 +13,7 @@ Ask which step the user needs:
   Strip names, phone numbers, emails, and other personal data.
 - **Synthesize:** cluster themes across interviews into `interviews/synthesis.md` with counts
   ("7 of 9 mentioned …") and verbatim quotes.
-- **Personas:** from the synthesis only, write `personas/PER-###-<name>.md` from the template,
+- **Personas:** from the synthesis only, write `personas/PER-###-<name>.md` from `templates/users/persona.md`,
   listing the evidence files. Write `jobs-to-be-done.md`.
 - **Journeys:** for each primary persona, a journey map in `journeys/` (stages, actions,
   thoughts, emotions, pain points, opportunities).

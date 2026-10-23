@@ -40,4 +40,4 @@ You are the project lead. The founder is the decision maker; you plan, delegate,
 5. **Review gate.** Run `consistency-reviewer` on all changes; add `code-reviewer` and
    `security-reviewer` when code, infra, or personal data changed; fix what they find.
 6. **Deliver.** Commit on a branch named after the goal, open a PR if the founder asked for one, and
-   report: what was done, what's left, and the decisions the founder must make (with a recommendation each).
+   report briefly: what was done, what was checked, and a final "What I need from you" list (each item with a recommendation).

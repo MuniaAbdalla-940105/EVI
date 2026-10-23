@@ -1,12 +1,12 @@
 # Content
 
-All customer-facing words. Everything follows `brand/voice-and-tone.md`.
+All customer-facing words, written to `brand/voice-and-tone.md`. Filled from phase 9.
 
-| Path | Purpose |
+| Path | Contents |
 | --- | --- |
-| `website/` | Page copy (home, about, product category pages, legal pages' plain-language summaries) |
-| `social/calendar.md` | Content calendar; posts in `social/YYYY-MM/` |
-| `blog/` | Articles (front matter: title, keywords, status, publish date) |
+| `website/` | Page copy and release notes |
+| `social/` | Calendar and posts by month |
+| `blog/` | Articles |
 | `email/` | Welcome series, order emails, newsletters |
-| `campaigns/<name>/` | Campaign brief, messaging, assets, results |
-| `localization/<lang>/` | Translations mirroring the structure above |
+| `campaigns/<name>/` | Brief, messaging, assets, results |
+| `localization/<lang>/` | Translations mirroring the folders above |

@@ -1,7 +1,9 @@
 # 00 Strategy
 
-| File | Purpose |
-| --- | --- |
-| `vision.md` | Vision, mission, problem statement, values, what Sada is *not* |
-| `okrs.md` | Quarterly objectives and key results, reviewed at each quarter end |
-| `roadmap.md` | Now / Next / Later roadmap across brand, products, and software |
+Why Sada exists and where it is going. Filled in phase 0.
+
+| File | Contents | Template |
+| --- | --- | --- |
+| `vision.md` | Vision, mission, problem, values, boundaries | `templates/strategy/vision.md` |
+| `okrs.md` | Quarterly objectives and key results | `templates/strategy/okrs.md` |
+| `roadmap.md` | Now / Next / Later across all streams | `templates/strategy/roadmap.md` |

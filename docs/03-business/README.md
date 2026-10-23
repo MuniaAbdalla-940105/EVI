@@ -1,12 +1,13 @@
-# 03 Business analysis
+# 03 Business
 
-| File | Purpose |
-| --- | --- |
-| `business-model-canvas.md` | The 9 blocks |
-| `value-proposition.md` | Value proposition canvas per persona |
-| `brd.md` | Business Requirements Document, `BR-###` |
-| `pricing.md` | Pricing strategy, price list, target margins (products' costing must agree) |
-| `financial-model.md` | Cost structure, revenue projections, break-even, funding needs |
-| `go-to-market.md` | Segments, channels, launch plan, marketing budget, KPIs |
-| `stakeholders.md` | Stakeholder map and RACI |
-| `risks.md` | Risk register: likelihood, impact, mitigation, owner |
+How Sada makes money, stated as requirements. Filled in phase 2.
+
+| File | Contents | Template |
+| --- | --- | --- |
+| `business-model-canvas.md` | The nine blocks | `templates/business/business-model-canvas.md` |
+| `value-proposition.md` | Value proposition per persona | — |
+| `brd.md` | Business requirements `BR-###` | `templates/business/brd.md` |
+| `pricing.md` | Pricing strategy, price list, target margins | `templates/business/pricing.md` |
+| `financial-model.md` | Costs, revenue, break-even, funding (plus `.xlsx` if detailed) | — |
+| `go-to-market.md` | Launch segment, channels, budget, KPIs | — |
+| `risks.md` | Risk register | — |

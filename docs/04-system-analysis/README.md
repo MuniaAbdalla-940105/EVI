@@ -1,12 +1,16 @@
 # 04 System analysis
 
-| Path | Purpose |
-| --- | --- |
-| `srs.md` | Software Requirements Specification: `FR-###`, `NFR-###` |
-| `use-cases/UC-###-slug.md` | Use cases (actor, preconditions, main/alt flows) |
-| `user-stories/US-###-slug.md` | User stories with acceptance criteria (Given/When/Then) |
-| `domain-model.md` | Entities and relations (Mermaid `erDiagram`) |
-| `architecture.md` | C4 context and container diagrams, integrations, security |
-| `api/openapi.yaml` | API contract shared by frontend and backend |
-| `adr/NNNN-title.md` | Architecture Decision Records |
-| `traceability.md` | BR → FR → US → SCR → PR/test matrix |
+What the software must do and how it is built. Filled in phase 5.
+
+| File | Contents | Template |
+| --- | --- | --- |
+| `srs.md` | Functional `FR-###` and non-functional `NFR-###` requirements | `templates/system/srs.md` |
+| `use-cases/UC-###-<slug>.md` | Use cases | `templates/system/use-case.md` |
+| `user-stories/US-###-<slug>.md` | Stories with Given/When/Then criteria | `templates/system/user-story.md` |
+| `domain-model.md` | Entities and relations (Mermaid) | — |
+| `architecture.md` | C4 diagrams, integrations, security | — |
+| `api/openapi.yaml` | API contract | — |
+| `adr/NNNN-<slug>.md` | Decision records | `templates/system/adr.md` |
+| `traceability.md` | BR → FR → US → SCR → PR | — |
+
+Current decisions: [`ADR-0001`](adr/0001-tech-stack.md) technology stack (proposed).

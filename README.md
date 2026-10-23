@@ -27,6 +27,7 @@ the software that sells them. All of it is versioned, reviewed, and traceable in
 | [`apps/api`](apps/api) | Backend application | Backend engineer |
 | [`infra`](infra) | Infrastructure as code, environments, deployment | DevOps |
 | [`operations`](operations) | Legal, finance, suppliers, customer support | Operations |
+| [`templates`](templates) | Every document template, in one place | Everyone |
 | [`scripts`](scripts) | Repo tooling (catalog validation, etc.) | Everyone |
 | [`.claude`](.claude) | Claude Code skills (slash commands) and specialist subagents | Everyone |
 
@@ -59,6 +60,7 @@ Full rules live in [`CLAUDE.md`](CLAUDE.md).
 - **Everything is Markdown with front matter** (`id`, `status`, `owner`, `updated`).
 - **IDs link the chain:** `MI` market insight → `BR` business requirement → `FR` functional
   requirement → `US` user story → `SCR` screen → PR → test. Clothing uses `COL` collection → `PRD` product → `FAB`/`TRM` materials.
+- **Clean repo:** only real content in working folders; templates live in `templates/`.
 - **Status flow:** `draft` → `review` → `approved` → `deprecated`.
 - **One branch per piece of work** (`research/…`, `brand/…`, `product/…`, `feat/…`, `infra/…`),
   merged through a pull request.

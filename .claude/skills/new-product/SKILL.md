@@ -7,8 +7,8 @@ argument-hint: "<product idea>"
 # New product
 
 1. Find the next free ID: `ls products | grep -o 'PRD-[0-9]*' | sort | tail -1`.
-2. Copy the template: `cp -r products/_template-apparel products/PRD-###-<slug>` for clothing, or
-   `products/_template` for anything else.
+2. Copy the template: `cp -r templates/products/apparel products/PRD-###-<slug>` for clothing, or
+   `templates/products/product` for anything else.
 3. Read `docs/02-users/personas/`, `docs/03-business/pricing.md`, `brand/voice-and-tone.md`, and
    existing products (avoid overlap; keep the range coherent).
 4. Fill, asking the user for anything you can't reasonably infer:
@@ -22,9 +22,8 @@ argument-hint: "<product idea>"
    - `content.md`: names (3 options), tagline, short/long descriptions, SEO, social captions,
      packaging text, FAQs, all in the brand voice.
    - `assets/`: optional SVG concept sketch or packaging layout.
-5. Add the product to the catalog table in `products/README.md`.
-6. **Clothing:** reference fabrics and trims by `FAB-###`/`TRM-###` from `materials/` (ask
+5. **Clothing:** reference fabrics and trims by `FAB-###`/`TRM-###` from `materials/` (ask
    `textile-specialist` to create missing ones), and have `garment-technologist` write `tech-pack.md`
    and `size-chart.md`. Fibre-content and care-label text must follow `docs/standards.md`.
-7. Run `python3 scripts/validate_catalog.py` and fix errors.
-8. If the product needs new app capability (e.g. a configurator), propose `FR`/`US` entries for `/system-analysis`.
+6. Run `python3 scripts/validate_catalog.py`, fix errors, and show the catalog it prints.
+7. If the product needs new app capability (e.g. a configurator), propose `FR`/`US` entries for `/system-analysis`.

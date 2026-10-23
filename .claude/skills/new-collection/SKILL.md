@@ -8,7 +8,7 @@ argument-hint: "<season or theme, e.g. SS27 resort capsule>"
 
 1. Make sure a trend report for this season and category from the last 3 months exists in
    `docs/01-market/trends/`; if not, run `/trend-research` first.
-2. Create `products/collections/COL-###-<slug>.md` from `_template.md`.
+2. Create `products/collections/COL-###-<slug>.md` from `templates/products/collection.md`.
 3. In parallel, delegate:
    - `fashion-designer`: concept, mood, color story, line plan (styles, roles, price tiers).
    - `textile-specialist`: fabric story; create or reuse `materials/fabrics/FAB-###` for each fabric.

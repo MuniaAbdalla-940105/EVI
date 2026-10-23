@@ -8,8 +8,8 @@ description: Turn Sada's business requirements into a system specification (SRS 
 1. Read `docs/03-business/brd.md`, personas, and `docs/05-ux-ui/` if present.
 2. `srs.md`: derive `FR-###` from each `BR` (keep the link) and `NFR-###` (performance, security,
    privacy/data protection, accessibility WCAG 2.2 AA, localization/RTL if relevant, availability).
-3. Use cases for each actor goal in `use-cases/` (template provided).
-4. User stories in `user-stories/` (template), INVEST-sized, Given/When/Then criteria, and
+3. Use cases for each actor goal in `use-cases/` from `templates/system/use-case.md`.
+4. User stories in `user-stories/` from `templates/system/user-story.md`, INVEST-sized, Given/When/Then criteria, and
    a release tag (`mvp`, `v1.1`, …).
 5. `domain-model.md`: Mermaid `erDiagram` with attributes and cardinalities.
 6. `architecture.md`: C4 context and container diagrams (Mermaid), integrations (payments,
