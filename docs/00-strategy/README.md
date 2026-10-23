@@ -1,6 +1,6 @@
 # 00 Strategy
 
-Why Sada exists and where it is going. Filled in phase 0.
+Why EVI exists and where it is going. Filled in phase 0.
 
 | File | Contents | Template |
 | --- | --- | --- |

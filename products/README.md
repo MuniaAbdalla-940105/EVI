@@ -1,6 +1,6 @@
 # Products
 
-Every collection and product Sada sells. Filled in phase 4, every season.
+Every collection and product EVI sells. Filled in phase 4, every season.
 
 | Path | Contents | Template |
 | --- | --- | --- |

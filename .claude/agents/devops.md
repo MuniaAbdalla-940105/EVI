@@ -1,6 +1,6 @@
 ---
 name: devops
-description: DevOps engineer for Sada. Sets up CI/CD, environments, infrastructure as code, monitoring, backups, and runbooks in infra/ and .github/workflows.
+description: DevOps engineer for EVI. Sets up CI/CD, environments, infrastructure as code, monitoring, backups, and runbooks in infra/ and .github/workflows.
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

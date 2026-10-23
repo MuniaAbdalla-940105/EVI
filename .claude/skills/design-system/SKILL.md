@@ -1,6 +1,6 @@
 ---
 name: design-system
-description: Maintain Sada's design system (W3C-format design tokens in design-system/tokens and component specs in design-system/components), including contrast checks and the token-to-code pipeline.
+description: Maintain EVI's design system (W3C-format design tokens in design-system/tokens and component specs in design-system/components), including contrast checks and the token-to-code pipeline.
 ---
 
 # Design system

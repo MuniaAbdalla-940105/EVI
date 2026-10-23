@@ -1,6 +1,6 @@
 ---
 name: business-analyst
-description: Business analyst for Sada. Writes and reviews business requirements, business model, pricing, financial assumptions, and go-to-market. Use to draft or critique docs/03-business.
+description: Business analyst for EVI. Writes and reviews business requirements, business model, pricing, financial assumptions, and go-to-market. Use to draft or critique docs/03-business.
 tools: Read, Write, Edit, Glob, Grep, WebSearch
 ---
 

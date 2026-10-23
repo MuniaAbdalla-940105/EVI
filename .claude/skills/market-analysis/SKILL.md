@@ -1,6 +1,6 @@
 ---
 name: market-analysis
-description: Research a market for Sada (sizing, trends, competitors, SWOT/PESTLE) with web sources and write it into docs/01-market. Use for market research, competitor analysis, or market sizing.
+description: Research a market for EVI (sizing, trends, competitors, SWOT/PESTLE) with web sources and write it into docs/01-market. Use for market research, competitor analysis, or market sizing.
 argument-hint: "<category> in <region>"
 ---
 

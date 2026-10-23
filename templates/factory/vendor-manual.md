@@ -5,9 +5,9 @@ version: 1
 updated: 2026-10-23
 ---
 
-# Sada vendor manual
+# EVI vendor manual
 
-Sada's standing requirements for every factory and supplier. Factories confirm in writing that they
+EVI's standing requirements for every factory and supplier. Factories confirm in writing that they
 have received and will follow this version.
 
 ## 1. Contacts and communication

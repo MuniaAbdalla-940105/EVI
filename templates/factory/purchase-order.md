@@ -12,7 +12,7 @@ updated: 2026-10-23
 
 | Field | Value |
 | --- | --- |
-| Buyer | Sada (legal name, address, contact) |
+| Buyer | EVI (legal name, address, contact) |
 | Factory | Legal name, address, contact |
 | Incoterm and place | e.g. FOB Istanbul |
 | Currency | |

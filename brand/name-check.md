@@ -10,8 +10,9 @@ updated: 2026-10-23
 **Decision (2026-10-23):** the founder will not use "Sada" because of the conflicts below. Alternatives
 are listed at the end.
 
-**Working name (2026-10-23): EVI**, short for "EVeryday Item". Pending a lawyer's trademark search and
-domain and handle checks; see "EVI check" below.
+**Decision (2026-10-23): EVI**, short for "EVeryday Item"; brand line **EVI Everyday**. Confirmed by the
+founder. Still open: a lawyer's trademark search (Egypt and the Gulf, classes 25 and 35) and domain and handle
+checks; see "EVI check" below.
 
 **Direction (2026-10-23, updated):** a short invented name (2 syllables), calm and premium, simple like
 "Sada" and close to its sound; not Arabic. "Effortless" is the tagline idea. Earlier rounds are kept for the record.

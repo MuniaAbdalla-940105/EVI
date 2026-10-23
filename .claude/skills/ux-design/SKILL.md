@@ -1,6 +1,6 @@
 ---
 name: ux-design
-description: Design Sada's user experience and interface (information architecture, user flows, wireframes, screen specs, clickable HTML prototypes, usability test plans) in docs/05-ux-ui, using the design system tokens.
+description: Design EVI's user experience and interface (information architecture, user flows, wireframes, screen specs, clickable HTML prototypes, usability test plans) in docs/05-ux-ui, using the design system tokens.
 argument-hint: "<flow, screen, or story ID>"
 ---
 

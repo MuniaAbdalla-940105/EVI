@@ -1,6 +1,6 @@
 # CLAUDE.md: working rules for this repo
 
-This repo holds the **whole Sada business**, not just its software. Treat every folder
+This repo holds the **whole EVI business**, not just its software. Treat every folder
 as a deliverable that people outside engineering (founders, designers, suppliers,
 marketers) will read.
 

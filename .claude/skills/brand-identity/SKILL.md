@@ -1,6 +1,6 @@
 ---
 name: brand-identity
-description: Create or evolve Sada's brand identity (strategy, positioning, voice and tone, logo concepts as SVG, color and type tokens, imagery, brand book). Use for anything about the logo, brand, colors, fonts, or brand guidelines.
+description: Create or evolve EVI's brand identity (strategy, positioning, voice and tone, logo concepts as SVG, color and type tokens, imagery, brand book). Use for anything about the logo, brand, colors, fonts, or brand guidelines.
 ---
 
 # Brand identity

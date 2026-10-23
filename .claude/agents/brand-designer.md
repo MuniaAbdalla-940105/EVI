@@ -1,6 +1,6 @@
 ---
 name: brand-designer
-description: Brand designer for Sada. Develops brand strategy, voice, SVG logo concepts, color and typography tokens, and brand guidelines.
+description: Brand designer for EVI. Develops brand strategy, voice, SVG logo concepts, color and typography tokens, and brand guidelines.
 tools: Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch
 ---
 

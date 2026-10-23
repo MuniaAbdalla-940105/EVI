@@ -1,6 +1,6 @@
 ---
 name: new-product
-description: Create a new Sada product (physical or digital) with its full package (concept, specs and materials, sourcing, costing and margin, marketing content, assets) under products/PRD-###-slug. Use when designing, adding, or updating a product.
+description: Create a new EVI product (physical or digital) with its full package (concept, specs and materials, sourcing, costing and margin, marketing content, assets) under products/PRD-###-slug. Use when designing, adding, or updating a product.
 argument-hint: "<product idea>"
 ---
 

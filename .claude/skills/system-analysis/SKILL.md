@@ -1,6 +1,6 @@
 ---
 name: system-analysis
-description: Turn Sada's business requirements into a system specification (SRS with FR/NFR, use cases, user stories with acceptance criteria, domain model, C4 architecture, OpenAPI contract, traceability matrix) in docs/04-system-analysis.
+description: Turn EVI's business requirements into a system specification (SRS with FR/NFR, use cases, user stories with acceptance criteria, domain model, C4 architecture, OpenAPI contract, traceability matrix) in docs/04-system-analysis.
 ---
 
 # System analysis

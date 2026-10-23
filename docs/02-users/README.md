@@ -1,6 +1,6 @@
 # 02 Users
 
-Who buys from Sada and why. Filled in phase 1.
+Who buys from EVI and why. Filled in phase 1.
 
 | File | Contents | Template |
 | --- | --- | --- |

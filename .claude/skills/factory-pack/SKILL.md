@@ -1,6 +1,6 @@
 ---
 name: factory-pack
-description: Prepare and export the documents a factory needs for Sada clothing (RFQ, tech pack, size spec, samples and fit comments, purchase order, vendor manual, QC inspection) as PDFs to send. Use when contacting factories, requesting quotes or samples, placing an order, or inspecting a shipment.
+description: Prepare and export the documents a factory needs for EVI clothing (RFQ, tech pack, size spec, samples and fit comments, purchase order, vendor manual, QC inspection) as PDFs to send. Use when contacting factories, requesting quotes or samples, placing an order, or inspecting a shipment.
 argument-hint: "rfq COL-### | sample PRD-### | order <factory> | inspect PO-###"
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: ADR-0001
-title: Technology stack for the Sada store and back office
+title: Technology stack for the EVI store and back office
 status: proposed   # the founder accepts, changes, or rejects this
 date: 2026-10-23
 links: []          # add FR/NFR IDs once the SRS exists
@@ -10,12 +10,16 @@ links: []          # add FR/NFR IDs once the SRS exists
 
 ## Context
 
-Sada is a direct-to-consumer clothing brand. The software must sell clothing online (catalog with
+EVI is a direct-to-consumer clothing brand. The software must sell clothing online (catalog with
 sizes and colors, size charts, cart, checkout, payments, shipping, returns, tax), publish
 editorial and campaign content, possibly in several languages including right-to-left, and meet
 `docs/standards.md` (WCAG 2.2 AA, Core Web Vitals, OWASP, PCI DSS, privacy).
 We want the frontend and our own logic in this repo, but we shouldn't rebuild commodity commerce
 (checkout, payments, tax, inventory) as a small team.
+
+Markets (decided 2026-10-23): the Gulf and Egypt, with the company registered in Egypt. That means
+several currencies (EGP, SAR, AED, KWD, QAR, BHD, OMR), Arabic and English, cross-border shipping and duties,
+and local payment methods.
 
 This proposal is written before the BRD and SRS exist. Re-check it against them before accepting.
 
@@ -54,6 +58,11 @@ All library versions are pinned at setup time to the current stable releases.
 ## Consequences
 
 - Monthly platform costs (Shopify plan and apps, hosting, email) go into `docs/03-business/financial-model.md`.
+- **Payments must be verified for an Egypt-registered company before accepting this ADR.** Check whether
+  Shopify Payments is offered to an Egyptian business; if not, list the gateways Shopify supports for the
+  region (e.g. Paymob, Fawry, or Kashier for Egypt; Tap or Checkout.com for the Gulf) and buy-now-pay-later
+  options popular in the Gulf (e.g. Tabby, Tamara). Option C (own commerce backend) becomes more attractive
+  if supported gateways are weak.
 - Checkout look-and-feel is limited to what Shopify allows; everything before checkout is fully custom.
 - When this ADR is accepted: scaffold `apps/web` and `apps/api`, add build/lint/test/CodeQL jobs to CI,
   and record the commands in `CLAUDE.md`.

@@ -1,6 +1,6 @@
 ---
 name: release
-description: Prepare a Sada release (verify CI and approved stories, write CHANGELOG and release notes for customers, tag the version, deployment checklist).
+description: Prepare an EVI release (verify CI and approved stories, write CHANGELOG and release notes for customers, tag the version, deployment checklist).
 argument-hint: "<version>"
 ---
 

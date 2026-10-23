@@ -10,7 +10,7 @@ updated: 2026-10-23
 
 # RFQ-000: <collection or styles>
 
-## About Sada
+## About EVI
 One paragraph: the brand, target customer, quality level.
 
 ## Styles to quote

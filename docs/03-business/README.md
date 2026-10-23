@@ -1,6 +1,6 @@
 # 03 Business
 
-How Sada makes money, stated as requirements. Filled in phase 2.
+How EVI makes money, stated as requirements. Filled in phase 2.
 
 | File | Contents | Template |
 | --- | --- | --- |

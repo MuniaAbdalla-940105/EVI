@@ -1,6 +1,6 @@
 ---
 name: ux-designer
-description: UX/UI designer for Sada. Creates flows, wireframes, screen specs, HTML prototypes, and usability test plans using the design system tokens and brand voice.
+description: UX/UI designer for EVI. Creates flows, wireframes, screen specs, HTML prototypes, and usability test plans using the design system tokens and brand voice.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ---
 

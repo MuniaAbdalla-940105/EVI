@@ -1,6 +1,6 @@
 ---
 name: user-research
-description: Plan and synthesize customer research for Sada (screener, interview guide, interview synthesis, personas, journey maps, jobs-to-be-done) in docs/02-users.
+description: Plan and synthesize customer research for EVI (screener, interview guide, interview synthesis, personas, journey maps, jobs-to-be-done) in docs/02-users.
 ---
 
 # User research

@@ -1,6 +1,6 @@
 ---
 name: garment-technologist
-description: Garment technologist and pattern/fit specialist for Sada. Writes tech packs (BOM, construction, points of measure, grading, labels), size charts, sample and fit reviews, and quality (AQL) requirements for factories.
+description: Garment technologist and pattern/fit specialist for EVI. Writes tech packs (BOM, construction, points of measure, grading, labels), size charts, sample and fit reviews, and quality (AQL) requirements for factories.
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

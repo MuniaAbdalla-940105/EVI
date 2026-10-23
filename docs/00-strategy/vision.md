@@ -9,8 +9,9 @@ updated: 2026-10-23
 
 ## The name
 
-**Working name: EVI**, short for **EVeryday Item**: the plain, well-made basic every woman reaches for
-first. Pending trademark, domain, and social handle checks (see `brand/name-check.md`).
+**EVI**, short for **EVeryday Item**: the plain, well-made basic every woman reaches for first.
+Brand line: **EVI Everyday**. Confirmed by the founder on 2026-10-23; trademark, domain, and social handle
+checks are still open (see `brand/name-check.md`).
 The original name, Sada (سادة, "plain"), was dropped because a Kuwaiti basics brand already uses it.
 
 ## Vision
@@ -41,13 +42,15 @@ Founder's own experience. This is a hypothesis until customer research confirms 
 
 ## Who it is for
 
-- **Now:** women, from young adults to millennials (exact age range to confirm), who dress modestly or
-  prefer covered, comfortable clothing.
+- **Now:** women and girls from Gen Alpha (teens) to Millennials, who dress modestly or prefer covered,
+  comfortable clothing.
+- **Markets:** the Gulf (Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman) and Egypt.
+- **Sizes:** XS to XXXL across the core range.
 - **Later:** a men's line.
 - Every body shape and a wide size range, including plus sizes, as part of the core range rather than
   an extension.
 
-## What Sada sells
+## What EVI sells
 
 All the basics a woman needs, in collections released in colour drops that mix and match with
 everything already in the range.
@@ -83,16 +86,16 @@ Not now: footwear, bags, accessories.
 
 ## Values
 
-1. **Simple (sada).** Nothing unnecessary in the design, the shopping, or the care.
+1. **Simple.** Nothing unnecessary in the design, the shopping, or the care.
 2. **Made for real bodies.** Every shape and size is planned from the start.
 3. **Honest.** Every claim about fabric and fit is backed by a test or a sample.
 4. **Calm confidence.** Elegant without being loud.
 
 ## Channels
 
-Online first (own website). A physical store may follow once online sales prove demand.
+Online first (own website). The company will be registered in Egypt. A physical store may follow once online sales prove demand.
 
-## What Sada is not
+## What EVI is not
 
 - Not fast fashion or trend-chasing. Basics stay in the range; colours refresh.
 - Not heavily embellished. One refined detail, never many.

@@ -1,6 +1,6 @@
 ---
 name: business-analysis
-description: Produce Sada's business analysis (business model canvas, value proposition, BRD with BR-### requirements, pricing, financial model, go-to-market, risks) in docs/03-business, grounded in market and user research.
+description: Produce EVI's business analysis (business model canvas, value proposition, BRD with BR-### requirements, pricing, financial model, go-to-market, risks) in docs/03-business, grounded in market and user research.
 ---
 
 # Business analysis

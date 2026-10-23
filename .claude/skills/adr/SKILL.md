@@ -1,6 +1,6 @@
 ---
 name: adr
-description: Record an architecture, technology, or significant business decision for Sada as an ADR in docs/04-system-analysis/adr.
+description: Record an architecture, technology, or significant business decision for EVI as an ADR in docs/04-system-analysis/adr.
 argument-hint: "<decision to make>"
 ---
 

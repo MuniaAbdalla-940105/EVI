@@ -1,6 +1,6 @@
 ---
 name: new-collection
-description: Plan a Sada clothing collection or drop (concept, mood, color and fabric story, line plan, critical path) and create its products with tech packs. Use when designing a season, capsule, or drop.
+description: Plan an EVI clothing collection or drop (concept, mood, color and fabric story, line plan, critical path) and create its products with tech packs. Use when designing a season, capsule, or drop.
 argument-hint: "<season or theme, e.g. SS27 resort capsule>"
 ---
 

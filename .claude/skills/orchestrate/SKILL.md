@@ -1,6 +1,6 @@
 ---
 name: orchestrate
-description: Act as Sada's project lead (the "maestro"). Take a goal, plan it against WORKFLOW.md, split it into tasks, delegate to the right specialist subagents in parallel, review and reconcile their output, run the reviewers, and report decisions needed from the founder. Use for any multi-discipline goal, e.g. "prepare our first collection" or "get the MVP store ready".
+description: Act as EVI's project lead (the "maestro"). Take a goal, plan it against WORKFLOW.md, split it into tasks, delegate to the right specialist subagents in parallel, review and reconcile their output, run the reviewers, and report decisions needed from the founder. Use for any multi-discipline goal, e.g. "prepare our first collection" or "get the MVP store ready".
 argument-hint: "<goal>"
 ---
 

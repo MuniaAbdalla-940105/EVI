@@ -7,7 +7,7 @@ updated: 2026-10-23
 
 # Standards baseline
 
-Every agent and every person working on Sada follows these. They are the **floor**, not the
+Every agent and every person working on EVI follows these. They are the **floor**, not the
 ceiling. Versions change, so before relying on one for a decision, check the official source for the
 current edition and update the "Checked" column.
 
@@ -28,6 +28,19 @@ and live in dated, sourced reports in `docs/01-market/trends/`, produced by `/tr
 | SEO | Semantic HTML, schema.org `Product` / `Offer` structured data, hreflang for each language | | 2026-10 |
 | Localization | Unicode CLDR for dates, numbers, currency; full RTL layout support if Arabic is a target language | | 2026-10 |
 | Code | TypeScript strict mode, lint and format in CI, tests for each acceptance criterion | | 2026-10 |
+
+## Markets: Egypt and the Gulf
+
+To verify with a local lawyer or official source before launch; listed so nothing is missed.
+
+| Area | What to check | Checked |
+| --- | --- | --- |
+| Company and tax | Egyptian company registration, tax card, VAT; how sales into each Gulf country are taxed (VAT, customs duty) | — |
+| Consumer protection | Egypt's Consumer Protection Law and each Gulf country's rules on online sales, returns, and Arabic-language information | — |
+| Personal data | Egypt's Personal Data Protection Law (Law 151 of 2020), Saudi PDPL, UAE PDPL; consent and parental consent for customers under 18 | — |
+| Marketing to minors | Rules for advertising to and collecting data from Gen Alpha customers (under 18) on each platform and in each country | — |
+| Textile labelling | Saudi (SASO) and Gulf (GSO) textile labelling requirements: fibre content, care, origin, Arabic text | — |
+| Payments | Licensed payment gateways for an Egypt-registered company selling in EGP and Gulf currencies | — |
 
 ## Apparel and textiles
 

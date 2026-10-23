@@ -1,6 +1,6 @@
 ---
 name: feature
-description: Implement one Sada user story end to end (frontend and/or backend, tests, docs, pull request) from its US-### spec. Use when building a feature.
+description: Implement one EVI user story end to end (frontend and/or backend, tests, docs, pull request) from its US-### spec. Use when building a feature.
 argument-hint: "US-###"
 ---
 

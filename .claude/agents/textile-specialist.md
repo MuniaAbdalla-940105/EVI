@@ -1,6 +1,6 @@
 ---
 name: textile-specialist
-description: Textile and fabric specialist for Sada. Selects and specifies fabrics and trims (fibre, yarn, weave or knit, GSM, finish), defines lab test plans, checks certificates and sustainability claims, and advises on care. Use for any fabric, material, trim, or care-label question.
+description: Textile and fabric specialist for EVI. Selects and specifies fabrics and trims (fibre, yarn, weave or knit, GSM, finish), defines lab test plans, checks certificates and sustainability claims, and advises on care. Use for any fabric, material, trim, or care-label question.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ---
 

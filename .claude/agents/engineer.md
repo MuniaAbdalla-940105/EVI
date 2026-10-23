@@ -1,6 +1,6 @@
 ---
 name: engineer
-description: Full-stack engineer for Sada's apps/web and apps/api. Implements user stories against the OpenAPI contract and design tokens, with tests.
+description: Full-stack engineer for EVI's apps/web and apps/api. Implements user stories against the OpenAPI contract and design tokens, with tests.
 tools: Read, Write, Edit, Glob, Grep, Bash
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: code-reviewer
-description: Senior code reviewer for Sada's apps. Reviews a diff or PR for correctness bugs, missing tests, contract drift from openapi.yaml, design-token violations, accessibility and performance regressions. Use on every code PR before merge.
+description: Senior code reviewer for EVI's apps. Reviews a diff or PR for correctness bugs, missing tests, contract drift from openapi.yaml, design-token violations, accessibility and performance regressions. Use on every code PR before merge.
 tools: Read, Glob, Grep, Bash
 ---
 

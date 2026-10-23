@@ -1,6 +1,6 @@
 ---
 name: fashion-designer
-description: Fashion designer for Sada's clothing. Develops collection concepts, mood and color stories, silhouettes, line plans, and design details from current, sourced trend research and the brand. Use for collection planning, style design, and design reviews of garments.
+description: Fashion designer for EVI's clothing. Develops collection concepts, mood and color stories, silhouettes, line plans, and design details from current, sourced trend research and the brand. Use for collection planning, style design, and design reviews of garments.
 tools: Read, Write, Edit, Glob, Grep, WebSearch, WebFetch
 ---
 

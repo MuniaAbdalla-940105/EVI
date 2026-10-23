@@ -1,6 +1,6 @@
-# Sada
+# EVI
 
-The single source of truth for the **Sada** brand and business: the research, the
+The single source of truth for the **EVI** brand and business: the research, the
 strategy, the brand identity, the physical and digital products, the content, and
 the software that sells them. All of it is versioned, reviewed, and traceable in one repo.
 

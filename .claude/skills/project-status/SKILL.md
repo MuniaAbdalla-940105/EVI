@@ -1,6 +1,6 @@
 ---
 name: project-status
-description: Report where the Sada project stands across all phases (strategy, market, business, brand, products, system analysis, UX, build, deploy, launch) and recommend the next steps. Use when asked for status, progress, "what's next", or a weekly report.
+description: Report where the EVI project stands across all phases (strategy, market, business, brand, products, system analysis, UX, build, deploy, launch) and recommend the next steps. Use when asked for status, progress, "what's next", or a weekly report.
 ---
 
 # Project status

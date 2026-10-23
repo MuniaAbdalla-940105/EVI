@@ -1,6 +1,6 @@
-# Sada: end-to-end project workflow
+# EVI: end-to-end project workflow
 
-This is how Sada goes from an idea to a launched brand with products, a website/app, and
+This is how EVI goes from an idea to a launched brand with products, a website/app, and
 operations, all managed in this repository with Claude Code.
 
 ```
@@ -119,8 +119,8 @@ Claude's built-in knowledge has a cutoff, so the agents don't *assume* they know
 
 ## Phase 0: Foundation
 
-**Goal:** agree what Sada is and set up the workspace.
-**You provide:** what Sada sells, for whom, where, at what price level; your vision in your own words; budget and launch date.
+**Goal:** agree what EVI is and set up the workspace.
+**You provide:** what EVI sells, for whom, where, at what price level; your vision in your own words; budget and launch date.
 
 | Do | Output | Claude Code |
 | --- | --- | --- |
