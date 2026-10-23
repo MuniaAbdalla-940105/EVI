@@ -60,10 +60,13 @@ everything already in the range.
 | Casual | Long tees, oversized shirts, wide-leg and straight pants, leggings |
 | Semi-casual | Shirt dresses, tunics, relaxed tailoring |
 | Formal | Tailored black pants, blouses, long blazers |
-| Active | Gym leggings, long active tops |
+| Active | Gym leggings, long active tops (drop 2) |
 | Later | Hijabs, a men's line |
 
 Not now: footwear, bags, accessories.
+
+**Launch collection (decided 2026-10-23):** a full basics wardrobe (tops, pants, jackets, and blazers) that
+mix and match so a woman can dress for a full week from EVI alone. Gym wear follows in the next drop.
 
 ## How customers shop
 

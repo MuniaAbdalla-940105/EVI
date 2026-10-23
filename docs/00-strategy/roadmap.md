@@ -10,11 +10,20 @@ updated: 2026-10-23
 Target: launch the first women's collection online about 12 months from now (October 2026 to October 2027).
 Dates are planning targets and will move once factory lead times are known.
 
+## Constraints (decided 2026-10-23)
+
+| Constraint | Decision | What it means for the plan |
+| --- | --- | --- |
+| Budget | The minimum needed; amount not set yet | The business analysis will estimate the minimum budget; the first collection is sized to it |
+| Founder time | About 2 hours a day | Claude prepares documents and decisions in advance; the founder reviews, decides, tests samples, and talks to suppliers |
+| Customer research | No public survey; the brand stays private for now | Desk research, mining public reviews of competitors, and private one-to-one conversations with trusted women |
+| Launch scope | A full basics wardrobe: tops, pants, jackets, blazers, enough to mix and match for a week | Gym wear moves to drop 2 |
+
 ## Month by month
 
 | Month | Research and business | Brand | Product | Website and operations |
 | --- | --- | --- | --- | --- |
-| 1 · Nov 2026 | Market and competitor research; customer interviews; fit survey (body shape, fit problems) | Name and trademark check | Define body shapes and the size range | Accept tech stack (ADR-0001) |
+| 1 · Nov 2026 | Market and competitor research; competitor review mining; private conversations about fit | Name and trademark check | Define body shapes and the size range | Accept tech stack (ADR-0001) |
 | 2 · Dec 2026 | Business model, budget, pricing | Brand strategy, logo, colours | First collection line plan (core basics) | Company and legal setup |
 | 3 · Jan 2027 | Financial plan | Brand book | Fabric swatches; factory search and quotes (RFQ) | System analysis, user stories |
 | 4 · Feb 2027 | | | Proto samples; fabric lab tests | UX: body-shape finder and product pages |
