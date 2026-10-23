@@ -10,6 +10,9 @@ updated: 2026-10-23
 **Decision (2026-10-23):** the founder will not use "Sada" because of the conflicts below. Alternatives
 are listed at the end.
 
+**Working name (2026-10-23): EVI**, short for "EVeryday Item". Pending a lawyer's trademark search and
+domain and handle checks; see "EVI check" below.
+
 **Direction (2026-10-23, updated):** a short invented name (2 syllables), calm and premium, simple like
 "Sada" and close to its sound; not Arabic. "Effortless" is the tagline idea. Earlier rounds are kept for the record.
 
@@ -159,6 +162,20 @@ Names that tell part of the brand story with a twist, instead of a single dictio
 | **Inea** | *ih-NEH-a* | Light, modern | "enea" appears on resale sites | No clothing brand found |
 | **Edea** | *eh-DEH-a* | Calm, balanced; echoes "idea" | EEDA (India) and EDAS (Rome) are similar | No clothing brand found |
 | **Ione** | *eye-OH-nee* | Classical, quiet (a Greek name) | Pronunciation varies | No clothing brand found |
+
+### EVI check (working name)
+
+| Check | Finding | Risk | Source (accessed 2026-10-23) |
+| --- | --- | --- | --- |
+| Clothing trademarks (class 25) | No live registration for "EVI" found in public aggregators. "EVIE" for women's sportswear was filed in the US and abandoned in 2002. | Low to check further | [EVIE](https://trademark.justia.com/763/50/evie-76350536.html) |
+| Similar marks | EVISU (Japanese denim brand) starts with the same letters; Evie and Anna (Australia, women's suits); "E-vie" on resale sites | Medium: a lawyer should compare | [Evisu](https://www.lyst.com/shop/evisu-clothing/), [Evie and Anna](https://fashionjournal.com.au/fashion/meet-label-making-power-suits-women/) |
+| Product names | Khaite and Derek Lam 10 Crosby sell an "Evi" dress (a style name, not a brand) | Low | [Khaite Evi](https://www.modaoperandi.com/women/p/khaite/evi-silk-maxi-dress/530474) |
+| Region | No EVI fashion or modest-wear brand found in the Gulf | Low | — |
+| Pronunciation | Many Arabic speakers say "Efi"; Arabic spelling can use ڤ: إيڤي | Low | — |
+| Domain and handles | evi.com and @evi are almost certainly taken (3 letters). Options: evi.sa, evi.ae, shopevi.com, wearevi.com, @wearevi, @evi.everyday | Medium | To check |
+
+Recommendation: register the word **EVI** together with a distinctive logo, and use the full line
+"EVI · Everyday Item" so the story is part of the brand.
 
 ### Founder favourites (2026-10-23): Saelo, Kanso, Evi
 

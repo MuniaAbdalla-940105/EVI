@@ -9,8 +9,9 @@ updated: 2026-10-23
 
 ## The name
 
-**Sada (سادة)** means plain: nothing added, no pattern, no fuss. The brand is the plain,
-well-made basic every woman reaches for first.
+**Working name: EVI**, short for **EVeryday Item**: the plain, well-made basic every woman reaches for
+first. Pending trademark, domain, and social handle checks (see `brand/name-check.md`).
+The original name, Sada (سادة, "plain"), was dropped because a Kuwaiti basics brand already uses it.
 
 ## Vision
 
