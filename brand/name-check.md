@@ -1,16 +1,21 @@
 ---
-title: Name check, "Sada"
+title: Brand name check
 status: draft
 owner: "@MuniaAbdalla-940105"
 updated: 2026-10-23
 ---
 
-# Name check: "Sada" (سادة)
+# Brand name check
+
+**Decision (2026-10-23):** the founder will not use "Sada" because of the conflicts below. Alternatives
+are listed at the end.
+
+## "Sada" (سادة)
 
 A web search for clothing brands using the name. This is **not** a legal trademark search. Trademark
 registrations must be checked in official databases, ideally by a trademark lawyer (see "Next steps").
 
-## Clothing brands found
+### Clothing brands found
 
 | Brand | Market | What it sells | Overlap with Sada | Risk | Source (accessed 2026-10-23) |
 | --- | --- | --- | --- | --- | --- |
@@ -27,7 +32,7 @@ Unrelated businesses also use the name (e.g. Sada Home, prayer rugs and home tex
 Limits: the sadakw.com and sadaa.shop sites could not be opened directly from this environment; their
 details come from search-result summaries. Follower counts and products may have changed.
 
-## What this means
+### What this means
 
 1. **"Sada" is already used for plain basics in the Gulf**, with the same meaning and positioning (SADA Kuwait).
    Even if that brand is small, it may hold or apply for a trademark, and customers could confuse the two.
@@ -36,7 +41,7 @@ details come from search-result summaries. Follower counts and products may have
 3. A **distinctive logo or a longer name** (the word plus a distinctive element) is usually easier to register
    and protect than the bare word.
 
-## Next steps
+### Next steps
 
 1. Search the official trademark databases for "Sada" and "سادة" in **class 25** (clothing) and **class 35**
    (online retail):
@@ -47,3 +52,31 @@ details come from search-result summaries. Follower counts and products may have
 2. Have a trademark lawyer in your main market give an opinion before you spend on logo, packaging, or labels.
 3. Check domain and social handles for the final name.
 4. Decide: keep "Sada" with a distinctive mark, adjust the name, or choose a new one.
+
+## Alternatives
+
+Criteria: matches the vision (fit for real bodies, modest, quiet elegance, basics); easy to say in Arabic
+and English; short; distinctive rather than a plain description of the product, so it can be registered.
+
+A web search for each name found no clothing brand using it, except where noted. This is a first filter
+only; the official trademark search and a lawyer's opinion still decide.
+
+| Name | Arabic | Meaning | Why it fits | Watch out | Web search (2026-10-23) |
+| --- | --- | --- | --- | --- | --- |
+| **Qawam** | قوام | Body figure, build; also balance | Speaks directly to fit by body shape | "Q" is unfamiliar in English (say *ka-WAAM*); some may confuse it with قوّام (guardian), which is spelled and pronounced differently | No clothing brand found ([EN](https://www.google.com/search?q=%22Qawam%22+clothing+brand), [AR](https://www.google.com/search?q=%D8%A8%D8%B1%D8%A7%D9%86%D8%AF+%D9%82%D9%88%D8%A7%D9%85+%D9%85%D9%84%D8%A7%D8%A8%D8%B3)) |
+| **Samt** | سَمْت | Calm, dignified bearing and poise | Modest elegance; short and strong | In German *Samt* means velvet; a different fabric idea for German speakers | No clothing brand found; "Samtana" is a different, unrelated name |
+| **Nawa** | نواة | Core, nucleus | The core of every wardrobe: the basics | Also spelled Nawah; a small Stockholm boutique "Nawa Mode" was reported in 2009 | No current clothing brand found |
+| **Qadd** | قَدّ | Figure, stature; على قدّك means "made to your size" | Fit for every body | Spelling is unusual in English; "قد" alone is also a common Arabic particle | No clothing brand found |
+| **Tanasub** | تناسُب | Proportion, harmony | Clothes in proportion with your body | Longer; harder to say in English | No fashion brand found |
+| **Rifq** | رِفق | Gentleness | Soft, easy, kind to the body and the day | Hard to spell and say in English | No clothing brand found; "Rifò" (Italy) is a different name |
+
+Rejected after search: **Hudu** (Chinese menswear company; pending US trademark), **Taya** (women's brand
+in Belarus; US trademark for women's clothing), **Lubb** (awkward in English).
+
+### Recommendation
+
+1. **Qawam**: strongest link to the core idea, fit by body shape.
+2. **Samt**: strongest link to modest, quiet elegance.
+
+Next: official trademark search (WIPO, Saudi SAIP, UAE) in classes 25 and 35, domain and Instagram handle
+checks, and a quick reaction test with 10–20 women from the target group.
