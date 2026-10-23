@@ -66,6 +66,18 @@ All library versions are pinned at setup time to the current stable releases.
   A short comparison goes in `docs/04-system-analysis/payments.md` in phase 5.
 - EVI owns security updates, backups, uptime, and PCI compliance (kept minimal with hosted payment fields).
 - Hosting and service costs go into `docs/03-business/financial-model.md`; no per-order platform fee.
+- Licence and hosting costs (checked 2026-10-23, verify on vendor pages before deciding):
+
+  | | Saleor | Medusa |
+  | --- | --- | --- |
+  | Licence | BSD-3, free to self-host | MIT core, free to self-host (some Enterprise features under separate terms) |
+  | Self-hosted infrastructure | About US$10–25/month on a small managed host (third-party guide) | Similar; Node.js, PostgreSQL, Redis, 2 GB RAM per instance |
+  | Vendor-managed cloud | Saleor Cloud; third-party sources conflict (about US$159 to US$1,599/month) | Medusa Cloud from US$29/month (Develop), US$99 (Launch), US$299 (Scale), plus usage |
+
+  With a minimum budget, both are affordable if self-hosted. If EVI wants the vendor to run the hosting,
+  Medusa Cloud is far cheaper, which favours option B.
+  Sources: [Medusa Cloud pricing](https://docs.medusajs.com/cloud/pricing), [Medusa licence](https://github.com/medusajs/medusa),
+  [Saleor on Railway](https://railway.com/deploy/saleor), [Saleor pricing overview](https://gappsy.com/tools/saleor/).
 - The founder will learn Next.js; it is React-based and closer to Angular than it looks (components,
   TypeScript, routing). Claude writes and explains the code.
 - When accepted: scaffold `apps/web` and `apps/api`, add build, lint, test, and CodeQL jobs to CI, and record
