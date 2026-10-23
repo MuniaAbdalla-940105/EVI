@@ -28,7 +28,7 @@ the software that sells them. All of it is versioned, reviewed, and traceable in
 | [`infra`](infra) | Infrastructure as code, environments, deployment | DevOps |
 | [`operations`](operations) | Legal, finance, suppliers, customer support | Operations |
 | [`templates`](templates) | Every document template, in one place | Everyone |
-| [`scripts`](scripts) | Repo tooling (catalog validation, etc.) | Everyone |
+| [`scripts`](scripts) | Catalog validation, PDF export for factories | Everyone |
 | [`.claude`](.claude) | Claude Code skills (slash commands) and specialist subagents | Everyone |
 
 ## Quick start with Claude Code
@@ -42,6 +42,7 @@ the software that sells them. All of it is versioned, reviewed, and traceable in
 /trend-research <topic>                 # dated, sourced trends (fashion, UX, tech)
 /new-collection <season>                # phase 4: collection, then its products
 /new-product <product idea>             # phase 4, one product
+/factory-pack <stage> <id>              # phase 4: RFQ, samples, PO, inspection PDFs for factories
 /system-analysis                        # phase 5
 /ux-design <flow or screen>             # phase 6
 /feature US-012                         # phase 7, build one user story end to end

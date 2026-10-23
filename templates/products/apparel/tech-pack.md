@@ -57,9 +57,5 @@ Fibre content wording, care symbols (ISO 3758), country of origin, folding and p
 ## 9. Quality
 Critical defects, AQL level, required tests (refer to fabric FAB-### test plan).
 
-## 10. Sample history
-| Sample | Date | Fit comments | Changes | Approved |
-| --- | --- | --- | --- | --- |
-| Proto | | | | |
-| Fit 1 | | | | |
-| PP | | | | |
+## 10. Samples
+All sample rounds, measurements, and fit comments: `samples.md`.

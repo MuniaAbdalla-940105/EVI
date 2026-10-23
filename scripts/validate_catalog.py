@@ -2,7 +2,7 @@
 """Validate every product folder under products/ and print the catalog.
 
 Checks each products/PRD-###-slug/ folder has the required files (plus
-tech-pack.md and size-chart.md for `type: apparel`) and that product.md
+tech-pack.md, size-chart.md, and samples.md for `type: apparel`) and that product.md
 front matter has the required fields with valid values.
 Exit code 1 if any product is invalid. Standard library only.
 """
@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 PRODUCTS = ROOT / "products"
 REQUIRED_FILES = ["product.md", "specs.md", "sourcing.md", "costing.md", "content.md"]
-APPAREL_FILES = ["tech-pack.md", "size-chart.md"]
+APPAREL_FILES = ["tech-pack.md", "size-chart.md", "samples.md"]
 REQUIRED_FIELDS = ["id", "name", "category", "status", "price", "currency"]
 STATUSES = {"concept", "development", "sampling", "approved", "launched", "retired"}
 FOLDER_RE = re.compile(r"^(PRD-\d{3})-[a-z0-9-]+$")

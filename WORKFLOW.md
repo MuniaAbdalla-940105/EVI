@@ -194,7 +194,7 @@ the SVG into Figma/Illustrator and commit the result back to `brand/logo/final/`
 ## Phase 4: Collections and products (repeats every season or drop)
 
 **Goal:** every product the brand sells is designed, specified, sourced, costed, and has its content ready.
-**You provide:** season and launch date, number of styles, target cost and price per style, approval of the line plan, known factories or mills, and samples' fit feedback.
+**You provide:** season and launch date, number of styles, target cost and price per style, approval of the line plan, known factories or mills, quantities, Incoterm (who pays shipping), fit feedback on each sample, and sending the factory PDFs.
 
 For clothing, work collection-first:
 
@@ -206,7 +206,8 @@ For clothing, work collection-first:
 | File | Contents | Specialist |
 | --- | --- | --- |
 | `product.md` | Concept, persona, positioning, collection, fabrics, variants, status | fashion-designer / product-developer |
-| `tech-pack.md` | Flats, BOM, construction, points of measure, grading, colorways, labels, QC, sample log | garment-technologist |
+| `tech-pack.md` | Flats, BOM, construction, points of measure, grading, colorways, labels, quality | garment-technologist |
+| `samples.md` | Every sample round: measurements, fit comments, decisions | garment-technologist |
 | `size-chart.md` | Customer size chart and fit notes | garment-technologist |
 | `specs.md` | Materials summary, care (ISO 3758), compliance, packaging | textile-specialist |
 | `sourcing.md` | Factories, MOQ, lead time, samples | product-developer |
@@ -216,8 +217,18 @@ For clothing, work collection-first:
 
 Non-clothing products use `templates/products/product/`.
 
-**Claude Code:** `/new-collection`, `/new-product`, or `/orchestrate "prepare the SS27 collection"`.
-CI runs `scripts/validate_catalog.py` (apparel products must include a tech pack and size chart).
+4. Working with factories, `/factory-pack` prepares each stage's documents and exports them as PDFs
+   (in `exports/`, never committed) for you to send:
+
+| Stage | What the factory receives | Kept in the repo |
+| --- | --- | --- |
+| Find a factory | Vendor manual, RFQ, tech packs | `operations/suppliers/`, `operations/production/RFQ-###` |
+| Samples | Tech pack, fit comments per round | `products/PRD-###/samples.md` |
+| Bulk order | Purchase order, approved tech packs, vendor manual | `operations/production/PO-###` |
+| Before shipping | Inspection report (pass / fail) | `operations/production/QC-###` |
+
+**Claude Code:** `/new-collection`, `/new-product`, `/factory-pack`, or `/orchestrate "prepare the SS27 collection"`.
+CI runs `scripts/validate_catalog.py` (apparel products must include a tech pack, size chart, and samples file).
 
 **Gate:** product `status: approved` requires an approved PP sample, fabric tests passed, costing
 within target margin, and approved content.

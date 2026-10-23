@@ -16,5 +16,6 @@ argument-hint: "<season or theme, e.g. SS27 resort capsule>"
    the line plan to the founder for approval before creating products.
 5. For each approved style, run the `/new-product` flow with the apparel template, then have
    `garment-technologist` complete `tech-pack.md` and `size-chart.md` and `content-writer` write `content.md`.
-6. Fill the critical path with dates working back from launch; run
+6. Send RFQs to factories with `/factory-pack rfq COL-###`.
+7. Fill the critical path with dates working back from launch; run
    `python3 scripts/validate_catalog.py` and `consistency-reviewer`.

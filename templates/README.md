@@ -13,4 +13,5 @@ never leave a half-filled template in a working folder.
 | UX/UI | `ux/screen.md` |
 | Brand | `brand/strategy.md`, `voice-and-tone.md`, `logo-brief.md` |
 | Design system | `design-system/component.md` |
-| Products | `products/collection.md`, `fabric.md`, `trim.md`, `product/` (general), `apparel/` (clothing) |
+| Products | `products/collection.md`, `fabric.md`, `trim.md`, `product/` (general), `apparel/` (clothing: includes tech pack, size chart, samples) |
+| Factory | `factory/rfq.md`, `purchase-order.md`, `vendor-manual.md`, `qc-inspection.md`, `supplier-profile.md` |
