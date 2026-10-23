@@ -1,0 +1,15 @@
+name: Feature / user story
+description: Software capability to analyse, design, and build
+title: "[Feature] "
+labels: ["phase:7-build", "feature"]
+body:
+  - type: input
+    id: story
+    attributes: { label: Story ID, description: "US-### if it exists" }
+  - type: textarea
+    id: story_text
+    attributes: { label: User story, placeholder: "As a …, I want …, so that …" }
+    validations: { required: true }
+  - type: textarea
+    id: criteria
+    attributes: { label: Acceptance criteria, placeholder: "Given … When … Then …" }

@@ -1,0 +1,12 @@
+name: Business
+description: Business model, requirement, pricing, financials, or go-to-market work
+title: "[Business] "
+labels: ["phase:2-business", "business"]
+body:
+  - type: textarea
+    id: goal
+    attributes: { label: Business goal, description: "Link the OKR or insight (MI-###)" }
+    validations: { required: true }
+  - type: textarea
+    id: deliverable
+    attributes: { label: Deliverable, description: "Which docs/03-business file(s)" }

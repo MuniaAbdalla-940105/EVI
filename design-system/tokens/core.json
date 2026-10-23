@@ -1,0 +1,25 @@
+{
+  "color": {
+    "brand": {
+      "500": { "$value": "#000000", "$type": "color", "$description": "Placeholder: set in /brand-identity" }
+    },
+    "neutral": {
+      "0": { "$value": "#ffffff", "$type": "color" },
+      "900": { "$value": "#111111", "$type": "color" }
+    }
+  },
+  "font": {
+    "family": {
+      "sans": { "$value": "system-ui, sans-serif", "$type": "fontFamily" }
+    }
+  },
+  "space": {
+    "1": { "$value": "4px", "$type": "dimension" },
+    "2": { "$value": "8px", "$type": "dimension" },
+    "4": { "$value": "16px", "$type": "dimension" },
+    "8": { "$value": "32px", "$type": "dimension" }
+  },
+  "radius": {
+    "md": { "$value": "8px", "$type": "dimension" }
+  }
+}

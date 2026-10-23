@@ -1,0 +1,12 @@
+name: Brand
+description: Logo, identity, voice, guidelines, or brand assets
+title: "[Brand] "
+labels: ["phase:3-brand", "brand"]
+body:
+  - type: textarea
+    id: need
+    attributes: { label: What is needed, description: "e.g. logo concepts, social template, packaging artwork" }
+    validations: { required: true }
+  - type: textarea
+    id: usage
+    attributes: { label: Where it will be used, description: Channels, sizes, formats }

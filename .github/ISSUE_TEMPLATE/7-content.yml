@@ -1,0 +1,9 @@
+name: Content
+description: Copy, social posts, emails, blog, campaign, or translation
+title: "[Content] "
+labels: ["phase:9-launch", "content"]
+body:
+  - type: textarea
+    id: brief
+    attributes: { label: Brief, description: "Audience, goal, channel, key message, deadline" }
+    validations: { required: true }

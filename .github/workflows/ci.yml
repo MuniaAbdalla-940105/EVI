@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  repo-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate product catalog
+        run: python3 scripts/validate_catalog.py
+      - name: Validate design tokens are valid JSON
+        run: for f in design-system/tokens/*.json; do python3 -m json.tool "$f" > /dev/null || exit 1; done
+
+  # Add web/api build, lint, and test jobs here once the stack ADR is accepted.

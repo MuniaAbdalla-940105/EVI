@@ -1,0 +1,15 @@
+name: Product
+description: A new product or a change to an existing one
+title: "[Product] "
+labels: ["phase:4-products", "product"]
+body:
+  - type: input
+    id: id
+    attributes: { label: Product ID, description: "PRD-### (leave empty for a new product)" }
+  - type: textarea
+    id: idea
+    attributes: { label: Idea or change, description: "What, for whom, why now" }
+    validations: { required: true }
+  - type: textarea
+    id: constraints
+    attributes: { label: Constraints, description: "Target price, materials, launch date, supplier" }

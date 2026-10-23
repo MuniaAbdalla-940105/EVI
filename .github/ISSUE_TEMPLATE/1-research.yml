@@ -1,0 +1,15 @@
+name: Research
+description: Market, competitor, or user research
+title: "[Research] "
+labels: ["phase:1-discovery", "research"]
+body:
+  - type: textarea
+    id: question
+    attributes: { label: Research question, description: "What decision will this research inform?" }
+    validations: { required: true }
+  - type: textarea
+    id: method
+    attributes: { label: Method, description: "Desk research, interviews, survey, competitor teardown…" }
+  - type: textarea
+    id: output
+    attributes: { label: Expected output, description: "Files in docs/01-market or docs/02-users" }

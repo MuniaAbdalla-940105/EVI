@@ -1,0 +1,14 @@
+{
+  "color": {
+    "text": {
+      "primary": { "$value": "{color.neutral.900}", "$type": "color" },
+      "inverse": { "$value": "{color.neutral.0}", "$type": "color" }
+    },
+    "surface": {
+      "default": { "$value": "{color.neutral.0}", "$type": "color" }
+    },
+    "action": {
+      "primary": { "$value": "{color.brand.500}", "$type": "color" }
+    }
+  }
+}
