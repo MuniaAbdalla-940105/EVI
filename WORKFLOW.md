@@ -276,7 +276,7 @@ maintains tokens and component specs.
 ## Phase 7: Build (frontend and backend)
 
 **Goal:** working software, story by story.
-**You provide:** access to accounts (Shopify, hosting, domain) set up by you, and review of each finished feature on the preview link.
+**You provide:** accounts set up in your name (hosting, database, payment gateways, domain), and review of each finished feature on the preview link.
 
 - `apps/web`: frontend, consumes `design-system/tokens` (generated into CSS variables/theme).
 - `apps/api`: backend, implements `api/openapi.yaml`.

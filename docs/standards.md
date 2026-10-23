@@ -40,7 +40,7 @@ To verify with a local lawyer or official source before launch; listed so nothin
 | Personal data | Egypt's Personal Data Protection Law (Law 151 of 2020), Saudi PDPL, UAE PDPL; consent and parental consent for customers under 18 | — |
 | Marketing to minors | Rules for advertising to and collecting data from Gen Alpha customers (under 18) on each platform and in each country | — |
 | Textile labelling | Saudi (SASO) and Gulf (GSO) textile labelling requirements: fibre content, care, origin, Arabic text | — |
-| Payments | Licensed payment gateways for an Egypt-registered company selling in EGP and Gulf currencies | — |
+| Payments | Licensed payment gateways for an Egypt-registered company selling in EGP and Gulf currencies; cash on delivery rules | — |
 
 ## Apparel and textiles
 
