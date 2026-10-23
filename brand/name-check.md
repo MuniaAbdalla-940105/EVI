@@ -70,13 +70,25 @@ only; the official trademark search and a lawyer's opinion still decide.
 | **Tanasub** | تناسُب | Proportion, harmony | Clothes in proportion with your body | Longer; harder to say in English | No fashion brand found |
 | **Rifq** | رِفق | Gentleness | Soft, easy, kind to the body and the day | Hard to spell and say in English | No clothing brand found; "Rifò" (Italy) is a different name |
 
-Rejected after search: **Hudu** (Chinese menswear company; pending US trademark), **Taya** (women's brand
+### Non-Arabic options
+
+Extra criterion: no "P" or "V", sounds Arabic speakers don't have, so the name is said the same way everywhere.
+
+| Name | Origin | Meaning | Why it fits | Watch out | Web search (2026-10-23) |
+| --- | --- | --- | --- | --- | --- |
+| **Misura** | Italian | Measure; *su misura* = made to measure | Fit for every body; sounds premium; in Arabic ميسورة also suggests "easy" | Shared with Misura biscuits (food, a different trademark class); a small Dominican shop label "By Misura" was reported in 2019 | No current clothing brand found ([report](https://elnuevodiario.com.do/misura-store-presenta-coleccion-otono-invierno-2019/)) |
+| **Kanso** | Japanese | Simplicity: removing what isn't needed | Closest in spirit to "Sada" (plain) | A known design term, so others may use it; "Kansu" workwear brand is similar | No clothing brand found ([Kansu](https://thingtesting.com/brands/kansu)) |
+| **Giusta** | Italian | Just right; fair | The fit is just right | Said *JOO-sta*; Molto Giusti is a menswear label in Uruguay | No clothing brand found ([Molto Giusti](https://uy.linkedin.com/in/moltogiusti)) |
+| **Mensura** | Latin | Measure | Fit, measured and balanced | English readers may see "Men" first, odd for a women's line | No clothing brand found |
+
+Rejected after search: **Lagom** ([several labels](https://thingtesting.com/brands/lagom)), **Mesure** ([Amsterdam womenswear](https://fashionunited.com/companies/mesure)), **Talla** (too close to [TALA](https://www.parse.gl/brands/wearetala-com) activewear), **Modus** ([Modus Vivendi](https://trademark.justia.com/owners/modus-vivendi-company-llc-1294283)), **Keel** ([Keel Labs](https://fabricgraphics.textiles.org/tag/algiknit/), textiles), **Doux** ([Dur Doux](https://cultmia.com/pages/about-dur-doux)), **Kiora** ([US trademark](https://trademarks.justia.com/980/88/kiora-98088339.html)), **Formea** (crowded "Forma" names), **Hudu** (Chinese menswear company; pending US trademark), **Taya** (women's brand
 in Belarus; US trademark for women's clothing), **Lubb** (awkward in English).
 
 ### Recommendation
 
-1. **Qawam**: strongest link to the core idea, fit by body shape.
-2. **Samt**: strongest link to modest, quiet elegance.
+1. **Misura**: fit by body shape, easy in Arabic and English, premium sound.
+2. **Qawam**: the same idea in Arabic.
+3. **Kanso**: closest to the original meaning of "Sada".
 
 Next: official trademark search (WIPO, Saudi SAIP, UAE) in classes 25 and 35, domain and Instagram handle
 checks, and a quick reaction test with 10–20 women from the target group.
