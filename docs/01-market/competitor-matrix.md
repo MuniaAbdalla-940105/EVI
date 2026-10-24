@@ -2,7 +2,7 @@
 title: Competitor matrix
 status: draft
 owner: "@MuniaAbdalla-940105"
-updated: 2026-10-23
+updated: 2026-10-24
 ---
 
 # Competitor matrix
