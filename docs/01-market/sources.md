@@ -57,3 +57,14 @@ publisher summaries of paid reports; their figures depend on each publisher's de
 | --- | --- |
 | [Egypt's ready-made garment exports rise 20% in 2025](https://www.zawya.com/en/economy/egypts-ready-made-garment-exports-rise-20-yoy-in-2025-393134) | Export value 2025 |
 | [Egyptian companies dominate ready-made garment exports](https://egyptianstreets.com/2025/12/02/egyptian-companies-dominate-ready-made-garment-exports/) | Number of exporters |
+
+## Competitor teardowns and trends (accessed 2026-10-24)
+
+Sources for each teardown are linked inside `competitors/*.md`; trend sources are listed in
+`trends/2026-10-modest-basics-ss27.md`. Additional sources:
+
+| Source | Used for |
+| --- | --- |
+| [Jasmine Fares interview](https://fashionmagazine.com/style/jasmine-fares-interview/) (Fashion Magazine) | FARES founder, origin, positioning |
+| [Leem joins Selfridges.com](https://www.thenationalnews.com/lifestyle/fashion-beauty/2023/12/18/saudi-brand-leem-on-selfridgescom/) (The National) | Leem prices and retail |
+| [Oysho reaches 600 stores](https://www.modaes.com/empresas/inditex-impulsa-a-oysho-alcanza-las-600-tiendas-tras-desembarcar-en-suecia-y-corea) (Modaes) | Oysho size |

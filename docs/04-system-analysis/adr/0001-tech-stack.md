@@ -21,6 +21,8 @@ Decided by the founder on 2026-10-23:
   BHD, OMR), cross-border shipping, and local payment methods (cash on delivery in Egypt, buy-now-pay-later
   in the Gulf; see MI-007).
 - **No Shopify.** EVI owns its platform and code.
+- **Self-hosted** (decided 2026-10-24): EVI runs the commerce engine on its own managed hosting rather
+  than a vendor cloud, to keep costs at the minimum.
 - The founder knows **Angular, Django, and .NET**, and will maintain and review the system. Familiar
   technology matters more than fashionable technology.
 

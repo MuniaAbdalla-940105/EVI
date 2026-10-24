@@ -2,7 +2,7 @@
 title: Market insights
 status: draft
 owner: "@MuniaAbdalla-940105"
-updated: 2026-10-23
+updated: 2026-10-24
 ---
 
 # Market insights
@@ -18,3 +18,6 @@ updated: 2026-10-23
 | MI-007 | Payment preferences differ: COD still large in Egypt; buy-now-pay-later widely known in Saudi Arabia | COD about 34% of payment value in Egypt (2025); 75% of Saudis know BNPL, 33% used it (Visa 2024) | Medium | Launch with COD in Egypt and BNPL in the Gulf |
 | MI-008 | Egypt has a growing garment manufacturing base | Exports about US$3.4bn in 2025 (+20%), 1,266 exporters | High | Produce in Egypt, close to the company and with short shipping to the Gulf |
 | MI-009 | Social platforms drive apparel discovery in Saudi Arabia | Snapchat-commissioned study, 2025 (sponsored) | Low to medium | Plan content for Snapchat, Instagram, TikTok; test try-on features later |
+| MI-010 | Price anchors for basics: Oysho Saudi Arabia SAR 199–389 per bottom; FARES US$24–34 per layer and about US$58 per pant; Tema (Egypt) EGP 425–1,850 per piece | Teardowns in `competitors/` (2026-10-24) | Medium | Gulf and Egypt need different price points; set prices per market channel |
+| MI-011 | Current trends match EVI's concept: quiet simplicity, relaxed tailoring, wrinkle-free and breathable fabrics, earthy neutrals | `trends/2026-10-modest-basics-ss27.md` | Medium | Launch range and fabric story can follow trends without chasing them |
+| MI-012 | The closest concept (FARES) is creator-led and North American; regional modest brands lead with dresses or low prices | Teardowns | Medium | Being regional, fit-led, and size-inclusive is EVI's clearest difference |

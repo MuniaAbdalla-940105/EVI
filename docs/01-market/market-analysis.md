@@ -3,14 +3,15 @@ title: Market analysis, modest everyday basics in the Gulf and Egypt
 status: draft
 owner: "@MuniaAbdalla-940105"
 updated: 2026-10-23
-links: [MI-001, MI-002, MI-003, MI-004, MI-005, MI-006, MI-007, MI-008, MI-009]
+links: [MI-001, MI-002, MI-003, MI-004, MI-005, MI-006, MI-007, MI-008, MI-009, MI-010, MI-011, MI-012]
 ---
 
 # Market analysis: modest everyday basics in the Gulf and Egypt
 
 First pass, from desk research (published reports, press, brand sites). Market-report figures vary widely
 between publishers because they define the market differently; ranges are shown instead of single numbers.
-Every figure is listed in `sources.md`.
+Every figure is listed in `sources.md`. Competitor teardowns are in `competitors/`; the trend report is in
+`trends/2026-10-modest-basics-ss27.md`.
 
 ## Market definition
 
@@ -82,9 +83,8 @@ for small brands are not known yet.
 
 ## Open questions
 
-1. Gulf price points for comparable basics (Oysho, Saudi modest brands) to set EVI's price level.
-2. Detailed teardowns of the 5–8 closest competitors (`competitors/`).
-3. Current trends for SS27 and AW27 modest basics (`/trend-research`).
-4. Customer validation without a public survey: private one-to-one conversations and mining public reviews of
+1. Gulf price points: first anchors found (MI-010); more needed for Kuwait, Qatar, and Egypt premium brands.
+2. Size ranges of competitors: mostly not published; check product pages directly.
+3. Customer validation without a public survey: private one-to-one conversations and mining public reviews of
    competitors for fit complaints.
-5. Minimum order quantities at Egyptian factories for a small brand.
+4. Minimum order quantities at Egyptian factories for a small brand.
