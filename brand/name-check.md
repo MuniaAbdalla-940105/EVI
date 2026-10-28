@@ -178,6 +178,16 @@ Names that tell part of the brand story with a twist, instead of a single dictio
 Recommendation: register the word **EVI** together with a distinctive logo, and use the full line
 "EVI · Everyday Item" so the story is part of the brand.
 
+### Official search attempt (2026-10-28)
+
+The WIPO Global Brand Database (branddb.wipo.int), which includes marks published by Egypt's Trademarks and
+Industrial Designs Office, could not be reached from Claude's cloud environment: the host is outside the
+environment's allowed network domains. A web search found no published "EVI" clothing mark in Egypt, Kuwait,
+or the wider region, which is not a substitute for the official search. Options: allow branddb.wipo.int in the
+environment's network settings, or search it in a browser (Brand name: EVI; Nice class: 25; Office: EG).
+Sources: [WIPO on Egypt's office](https://www.wipo.int/global_ip/en/activities/ip_office_business_solutions/news/2015/news_0004.html),
+[Marcaria Egypt search](https://trademark-search.marcaria.com/en/africa/egypt-trademark-search).
+
 ### Founder favourites (2026-10-23): Saelo, Kanso, Evi
 
 | Name | Finding | Source |

@@ -1,6 +1,6 @@
 ---
 title: Pricing, Egypt launch
-status: draft
+status: draft   # final prices are set after factory costs (founder, 2026-10-28)
 owner: "@MuniaAbdalla-940105"
 updated: 2026-10-28
 links: [MI-006, MI-010]
@@ -33,7 +33,7 @@ and below international brands such as Oysho and Zara. The founder set maximum p
 | Zara | Women's trousers | Mostly 1,690–2,590; some 3,590–4,290 |
 | Local modest brands (Tema, Jamila, Rizq, Wide Leg Egypt) | Tops, pants, sets | About 375–1,850 |
 
-## Price list (proposed)
+## Price list (proposed; final prices set after factory costs)
 
 | Item | Founder's maximum | Maximum in EGP | Proposed EGP price | Position | Target landed cost (65% margin) |
 | --- | --- | --- | --- | --- | --- |
