@@ -102,6 +102,17 @@ time, portrait format. Each prompt is complete on its own.
 > longline blazer worn open over it. Tan leather mules, small black bag. Pinned swatches labelled "Charcoal
 > jersey" and "Black suiting". Header: "EVI Everyday · Saturday". Portrait 2:3.
 
+### Review of the first round (2026-10-28)
+
+All seven looks came out on brand: modern, calm, modest by cut, correct colours and pieces. Fixes for the next round:
+
+| Look | Fix | Reply to ChatGPT |
+| --- | --- | --- |
+| Sunday | Blazer has two buttons; the range has one. The Charcoal swatch reads black | "Make the blazer single-button, and the Charcoal suiting swatch a warm dark grey, lighter than black" |
+| All | Most figures came out slim and similar, so the fit-by-body-shape promise doesn't show | Add "clearly visible [shape] figure, UK size [16/20]" and "realistic proportions, not a fashion-model body" |
+| Wednesday, Sunday | Straight pants look tapered and cropped | "Straight leg, same width from knee to hem, ankle length" |
+| Monday | Tee is tucked in | Fine for a fitted tee under an open shirt; keep |
+
 ## Reference photos on real models
 
 Similar shapes from other brands, to judge proportions on a real body (references only, not EVI products):
