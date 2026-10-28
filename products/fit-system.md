@@ -35,6 +35,23 @@ Visual version: [EVI Fit System](https://claude.ai/artifact/JZP4SFGupvzf3NaR7EyR
 | Tummy-smoothing inner panel | No | Sizes L to XXXL | All sizes |
 | Leg | Same in all three fits | Same | Same |
 
+Technical flats of each pant in all three fits (front and back): [EVI Pant Variations](https://claude.ai/artifact/X5A7oVzgaZgeYKEyEkHYQy).
+
+### Proposed spec differences (size L, compared with Straight)
+
+Starting points for the pattern maker, not tested values; fixed in fit rounds 1 and 2.
+
+| Measurement | Straight | Curvy | Full |
+| --- | --- | --- | --- |
+| Waist | Base | −4 cm | +4 cm |
+| Hip | Base | +4 cm | +2 cm |
+| Thigh | Base | +2 cm | +2 cm |
+| Front rise | Base | +1 cm | +4 cm |
+| Back rise | Base | +3 cm | +2 cm |
+| Waistband | 4 cm, straight | 4 cm, contoured | 6 cm, soft, elastic back and sides |
+| Back shaping | 1 dart each side | 2 darts each side | No darts |
+| Knee, hem, inside leg | Same | Same | Same |
+
 The leg is the same in all three fits, so one leg pattern is graded and only the top block (waist, rise,
 hip) changes. This keeps pattern and sampling cost down.
 
