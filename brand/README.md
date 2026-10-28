@@ -5,6 +5,7 @@ Who EVI is and how it looks and sounds. Filled in phase 3.
 | File | Contents | Template |
 | --- | --- | --- |
 | `name-check.md` | Name conflicts, alternative names, trademark next steps | — |
+| `lookbook/` | Concept images of the collection (internal only), listed in its README | — |
 | `lookbook-prompts.md` | Image-generator prompts and real-model references for the launch range | — |
 | `strategy.md` | Purpose, positioning, personality, promise | `templates/brand/strategy.md` |
 | `voice-and-tone.md` | How EVI writes, with examples | `templates/brand/voice-and-tone.md` |
