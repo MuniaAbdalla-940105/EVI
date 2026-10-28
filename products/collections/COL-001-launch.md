@@ -14,7 +14,8 @@ updated: 2026-10-28
 **Modern city basics, modest by design** (founder direction, 2026-10-28): modesty comes from cut and length,
 not from traditional or religious styling. Ten everyday basics that mix and match into a full week. Plain pieces, each with one refined detail;
 tops cover the hips; opaque fabrics; relaxed cuts that are not shapeless; pants in body-shape fits.
-Visual board: [EVI Launch Range](https://claude.ai/artifact/DMGRTgy6RQcfQ9JEsgzHte). Image prompts for
+Sketches of all ten pieces and a week of looks: [EVI Sketchbook](https://claude.ai/artifact/YR17EpVshyeg3xsMSHAuNz).
+Earlier visual board: [EVI Launch Range](https://claude.ai/artifact/DMGRTgy6RQcfQ9JEsgzHte). Image prompts for
 realistic previews: `brand/lookbook-prompts.md`.
 
 ## Target customer and occasion
