@@ -44,7 +44,7 @@ Founder's own experience. This is a hypothesis until customer research confirms 
 
 - **Now:** women and girls from Gen Alpha (teens) to Millennials, who dress modestly or prefer covered,
   comfortable clothing.
-- **Markets:** the Gulf (Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman) and Egypt.
+- **Markets:** launch in **Egypt** first; then the Gulf (Saudi Arabia, UAE, Kuwait, Qatar, Bahrain, Oman).
 - **Sizes:** XS to XXXL across the core range.
 - **Later:** a men's line.
 - Every body shape and a wide size range, including plus sizes, as part of the core range rather than
@@ -96,7 +96,7 @@ mix and match so a woman can dress for a full week from EVI alone. Gym wear foll
 
 ## Channels
 
-Online first (own website). The company will be registered in Egypt. A physical store may follow once online sales prove demand.
+Online first (own website). The company will be registered in Egypt; the founder lives in Kuwait. A physical store may follow once online sales prove demand.
 
 ## What EVI is not
 
