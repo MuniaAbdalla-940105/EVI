@@ -2,7 +2,7 @@
 title: Vision and mission
 status: draft
 owner: "@MuniaAbdalla-940105"
-updated: 2026-10-23
+updated: 2026-10-28
 ---
 
 # Vision and mission
@@ -10,7 +10,8 @@ updated: 2026-10-23
 ## The name
 
 **EVI**, short for **EVeryday Item**: the plain, well-made basic every woman reaches for first.
-Brand line: **EVI Everyday**. Confirmed by the founder on 2026-10-23; trademark, domain, and social handle
+Brand line: **EVI Everyday**. Tagline: **EVI. Your everyday capsule.** (2026-10-28): every collection is a
+capsule of pieces that mix into a full week, named Capsule 01, Capsule 02, and so on. Confirmed by the founder on 2026-10-23; trademark, domain, and social handle
 checks are still open (see `brand/name-check.md`).
 The original name, Sada (سادة, "plain"), was dropped because a Kuwaiti basics brand already uses it.
 

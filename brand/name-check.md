@@ -2,7 +2,7 @@
 title: Brand name check
 status: draft
 owner: "@MuniaAbdalla-940105"
-updated: 2026-10-23
+updated: 2026-10-28
 ---
 
 # Brand name check
@@ -13,6 +13,14 @@ are listed at the end.
 **Decision (2026-10-23): EVI**, short for "EVeryday Item"; brand line **EVI Everyday**. Confirmed by the
 founder. Still open: a lawyer's trademark search (Egypt and the Gulf, classes 25 and 35) and domain and handle
 checks; see "EVI check" below.
+
+**Decision (2026-10-28): keep EVI; capsule is the tagline, not the name.** The founder considered
+"Capsula" for the capsule-wardrobe idea. A web search found no clothing brand with that exact name, but
+"capsule" is a common fashion term (weak trademark, hard to find online), near names exist
+([Kapsul, Dubai](https://www.madamearabia.com/?p=8987); [CAPSULE WD, US class 25](https://markinton.com/trademark/capsule-wd-79415322);
+[KAPSUL, US application](https://markinton.com/trademark/kapsul-79427583)), and in Arabic, Spanish, and Italian it
+suggests a medicine pill (accessed 2026-10-28). Tagline: **"EVI. Your everyday capsule."** Collections are
+named Capsule 01, Capsule 02, and so on.
 
 **Direction (2026-10-23, updated):** a short invented name (2 syllables), calm and premium, simple like
 "Sada" and close to its sound; not Arabic. "Effortless" is the tagline idea. Earlier rounds are kept for the record.

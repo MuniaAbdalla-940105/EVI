@@ -9,6 +9,6 @@ Every collection and product EVI sells. Filled in phase 4, every season.
 | `PRD-###-<slug>/` (clothing) | product, tech pack, size chart, samples and fit comments, specs, sourcing, costing, content, assets | `templates/products/apparel/` |
 | `PRD-###-<slug>/` (other) | product, specs, sourcing, costing, content, assets | `templates/products/product/` |
 
-Current collection: `collections/COL-001-launch.md` (concept).
+Current collection: `collections/COL-001-launch.md`, Capsule 01 (concept).
 
 `python3 scripts/validate_catalog.py` checks every product folder and prints the catalog. CI runs it.

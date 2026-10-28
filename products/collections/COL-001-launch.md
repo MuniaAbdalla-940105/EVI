@@ -1,6 +1,6 @@
 ---
 id: COL-001
-name: EVI launch range
+name: Capsule 01 (launch)
 season: launch (Egypt, 2027)
 status: concept       # waiting for the founder's approval
 launch: "2027-09"
@@ -8,7 +8,7 @@ trend_reports: [docs/01-market/trends/2026-10-modest-basics-ss27.md]
 updated: 2026-10-28
 ---
 
-# COL-001: EVI launch range
+# COL-001: Capsule 01 (launch)
 
 ## Concept and story
 **Modern city basics, modest by design** (founder direction, 2026-10-28): modesty comes from cut and length,
