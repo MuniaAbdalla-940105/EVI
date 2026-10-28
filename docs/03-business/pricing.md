@@ -41,6 +41,7 @@ and below international brands such as Oysho and Zara. The founder set maximum p
 | Top (long shirt, tunic) | 10 KD | ≈ 1,700 | **1,350** | Mid-market | ≤ EGP 415 |
 | Pants | 15 KD | ≈ 2,550 | **2,200** | Around Zara, below Oysho | ≤ EGP 675 |
 | Hoodie | 15 KD | ≈ 2,550 | **2,200** | Around Zara | ≤ EGP 675 |
+| Basic dress | Not set yet | — | **1,950** (proposal, about 11.5 KD) | Between top and pant prices (Assumption: Egypt dress benchmarks not yet checked) | ≤ EGP 600 |
 | Jacket or blazer | Not set yet | — | **2,900** (proposal, about 17 KD) | Below Oysho and Zara tailoring | ≤ EGP 890 |
 
 How the target cost is calculated: price ÷ 1.14 (remove VAT) × 0.35 (keep 65%). Landed cost means fabric,

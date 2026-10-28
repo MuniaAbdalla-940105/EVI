@@ -12,7 +12,7 @@ updated: 2026-10-28
 
 ## Concept and story
 **Modern city basics, modest by design** (founder direction, 2026-10-28): modesty comes from cut and length,
-not from traditional or religious styling. Nine everyday basics that mix and match into a full week. Plain pieces, each with one refined detail;
+not from traditional or religious styling. Ten everyday basics that mix and match into a full week. Plain pieces, each with one refined detail;
 tops cover the hips; opaque fabrics; relaxed cuts that are not shapeless; pants in body-shape fits.
 Visual board: [EVI Launch Range](https://claude.ai/artifact/DMGRTgy6RQcfQ9JEsgzHte). Image prompts for
 realistic previews: `brand/lookbook-prompts.md`.
@@ -34,7 +34,7 @@ Women from teens to their forties in Egypt, for work, school runs, visits, and w
 | Fluid, crease-resistant crepe | Wide-leg pant, longline split top |
 | Stretch suiting, wash-and-wear | Straight pant, blazer |
 | Easy-care poplin or lyocell blend | Long shirt |
-| Cotton-modal jersey with stretch | Fitted tee |
+| Cotton-modal jersey with stretch | Fitted tee; basic dress in a heavier, opaque weight |
 | Soft rib with stretch | Base layer |
 | Cotton French terry | Hoodie |
 | Washed cotton-blend twill | Light jacket |
@@ -54,11 +54,13 @@ Pant fits (Straight, Curvy, Full) are defined in `products/fit-system.md`.
 | 7 | Long hoodie | Core | One fit | French terry | Sand, Black, Sage | Roomy hood that keeps its shape; dropped shoulder |
 | 8 | Longline blazer | Hero | One fit | Stretch suiting | Black, Sand | Soft shoulder; suit option with #2 |
 | 9 | Light jacket | Core | One fit | Cotton-blend twill | Ivory, Sage, Black | Snap front; flap pockets |
+| 10 | Basic maxi dress | Core | One fit (A-line skims hips and tummy) | Heavier cotton-modal jersey | Black, Sand | Ankle length, long sleeves, crew neck; hidden side-seam pockets; short side vents for walking. Layers over pants or under the blazer and jacket |
 
 Sizes XS–XXXL for every style. Prices are set after factory costs (`docs/03-business/pricing.md`).
 
 ## Open decisions
 - Founder approval of styles, colours, and details.
+- Basic dress (added 2026-10-28): founder's maximum price not set yet.
 - How many colourways per style the minimum budget allows (each colourway multiplies stock).
 
 ## Critical path
