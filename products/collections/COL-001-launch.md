@@ -40,6 +40,9 @@ Women from teens to their forties in Egypt, for work, school runs, visits, and w
 | Washed cotton-blend twill | Light jacket |
 
 ## Line plan
+
+Pant fits (Straight, Curvy, Full) are defined in `products/fit-system.md`.
+
 | # | Style | Role | Fits | Fabric | Colourways | Refined detail |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wide-leg pant | Hero | Straight, Curvy, Full | Crepe | Black, Sand, Sage | Pressed crease; hidden back elastic |
