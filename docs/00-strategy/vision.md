@@ -82,10 +82,12 @@ mix and match so a woman can dress for a full week from EVI alone. Gym wear foll
    rise, waist, hip, and tummy shaped to match. Sizes cover the full range, including plus sizes.
 2. **Modest by design.** Tops long enough to cover the hips, opaque fabrics, and loose-enough cuts.
 3. **Wash and wear.** Fabrics that resist creasing, need little or no ironing, and survive frequent washing.
-4. **Quiet elegance.** Plain pieces with one small, refined detail each: a seam, a cuff, a button, a drape.
+4. **Modern, not traditional.** EVI looks like contemporary city basics (the calm of Oysho and Alo).
+   Modesty comes from cut, length, and opacity, never from religious or traditional styling.
+5. **Quiet elegance.** Plain pieces with one small, refined detail each: a seam, a cuff, a button, a drape.
    Feminine, with an edge.
-5. **Colours that combine.** Each drop adds colours that work with the core palette.
-6. **Tested before sold.** Every product is worn and tested by the founder; only approved products go online.
+6. **Colours that combine.** Each drop adds colours that work with the core palette.
+7. **Tested before sold.** Every product is worn and tested by the founder; only approved products go online.
 
 ## Values
 
