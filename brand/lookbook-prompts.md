@@ -21,7 +21,7 @@ images, not product photos, and must not be used to sell or advertise products.
 > pale floor, relaxed natural pose. No headscarf, no traditional or religious styling, no jewellery
 > except small gold earrings.
 
-Colours: Black, Sand (warm beige), Ivory (soft off-white), Sage (muted grey-green).
+Colours: Black, Charcoal (warm dark grey), Sand (warm beige), Ivory (soft off-white), Sage (muted grey-green).
 
 ## Looks
 

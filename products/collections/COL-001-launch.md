@@ -25,6 +25,7 @@ Women from teens to their forties in Egypt, for work, school runs, visits, and w
 | --- | --- |
 | Black | Core |
 | Sand | Core |
+| Charcoal (warm dark grey) | Core (added by the founder 2026-10-28); shade matched to a physical swatch |
 | Ivory | Core (opaque fabrics only) |
 | Sage | Accent; changes each drop |
 
@@ -46,21 +47,22 @@ Pant fits (Straight, Curvy, Full) are defined in `products/fit-system.md`.
 | # | Style | Role | Fits | Fabric | Colourways | Refined detail |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wide-leg pant | Hero | Straight, Curvy, Full | Crepe | Black, Sand, Sage | Pressed crease; hidden back elastic |
-| 2 | Straight tailored pant | Core | Straight, Curvy, Full | Stretch suiting | Black, Sand | Tummy-smoothing inner panel; hem slit |
+| 2 | Straight tailored pant | Core | Straight, Curvy, Full | Stretch suiting | Black, Sand, Charcoal | Tummy-smoothing inner panel; hem slit |
 | 3 | Long oversized shirt | Core | One fit | Poplin or lyocell blend | Ivory, Sand, Black | Hidden placket; back pleat |
-| 4 | Fitted tee | Basic (layering) | One fit | Cotton-modal jersey with stretch | Ivory, Sand, Black, Sage | Regular length, close fit, short sleeves; flat neck binding |
+| 4 | Fitted tee | Basic (layering) | One fit | Cotton-modal jersey with stretch | Ivory, Sand, Black, Sage, Charcoal | Regular length, close fit, short sleeves; flat neck binding |
 | 5 | Long-sleeve base layer | Basic | One fit | Rib | Black, Ivory, Sand | Thumbhole cuffs |
 | 6 | Longline split top | Core | One fit | Crepe | Sage, Black, Sand | Upper-thigh length, high bound slits, boat neck; co-ord set with #1 |
-| 7 | Long hoodie | Core | One fit | French terry | Sand, Black, Sage | Roomy hood that keeps its shape; dropped shoulder |
-| 8 | Longline blazer | Hero | One fit | Stretch suiting | Black, Sand | Soft shoulder; suit option with #2 |
+| 7 | Long hoodie | Core | One fit | French terry | Sand, Black, Sage, Charcoal | Roomy hood that keeps its shape; dropped shoulder |
+| 8 | Longline blazer | Hero | One fit | Stretch suiting | Black, Sand, Charcoal | Soft shoulder; suit option with #2 |
 | 9 | Light jacket | Core | One fit | Cotton-blend twill | Ivory, Sage, Black | Snap front; flap pockets |
-| 10 | Basic maxi dress | Core | One fit (A-line skims hips and tummy) | Heavier cotton-modal jersey | Black, Sand | Ankle length, long sleeves, crew neck; hidden side-seam pockets; short side vents for walking. Layers over pants or under the blazer and jacket |
+| 10 | Basic maxi dress | Core | One fit (A-line skims hips and tummy) | Heavier cotton-modal jersey | Black, Sand, Charcoal | Ankle length, long sleeves, crew neck; hidden side-seam pockets; short side vents for walking. Layers over pants or under the blazer and jacket |
 
 Sizes XS–XXXL for every style. Prices are set after factory costs (`docs/03-business/pricing.md`).
 
 ## Open decisions
 - Founder approval of styles, colours, and details.
-- Basic dress (added 2026-10-28): founder's maximum price not set yet.
+- Basic dress (added 2026-10-28): jersey maxi confirmed, not a shirt dress; founder's maximum price not set yet.
+- Charcoal shade (warm, neutral, or cool): choose from physical swatches.
 - How many colourways per style the minimum budget allows (each colourway multiplies stock).
 
 ## Critical path
