@@ -14,7 +14,8 @@ updated: 2026-10-28
 **Modern city basics, modest by design** (founder direction, 2026-10-28): modesty comes from cut and length,
 not from traditional or religious styling. Nine everyday basics that mix and match into a full week. Plain pieces, each with one refined detail;
 tops cover the hips; opaque fabrics; relaxed cuts that are not shapeless; pants in body-shape fits.
-Visual board: [EVI Launch Range](https://claude.ai/artifact/DMGRTgy6RQcfQ9JEsgzHte).
+Visual board: [EVI Launch Range](https://claude.ai/artifact/DMGRTgy6RQcfQ9JEsgzHte). Image prompts for
+realistic previews: `brand/lookbook-prompts.md`.
 
 ## Target customer and occasion
 Women from teens to their forties in Egypt, for work, school runs, visits, and weekends (`docs/00-strategy/vision.md`).
@@ -33,7 +34,7 @@ Women from teens to their forties in Egypt, for work, school runs, visits, and w
 | Fluid, crease-resistant crepe | Wide-leg pant, longline split top |
 | Stretch suiting, wash-and-wear | Straight pant, blazer |
 | Easy-care poplin or lyocell blend | Long shirt |
-| Heavier cotton-modal jersey | Long tee |
+| Cotton-modal jersey with stretch | Fitted tee |
 | Soft rib with stretch | Base layer |
 | Cotton French terry | Hoodie |
 | Washed cotton-blend twill | Light jacket |
@@ -44,7 +45,7 @@ Women from teens to their forties in Egypt, for work, school runs, visits, and w
 | 1 | Wide-leg pant | Hero | Straight, Curvy, Full | Crepe | Black, Sand, Sage | Pressed crease; hidden back elastic |
 | 2 | Straight tailored pant | Core | Straight, Curvy, Full | Stretch suiting | Black, Sand | Tummy-smoothing inner panel; hem slit |
 | 3 | Long oversized shirt | Core | One fit | Poplin or lyocell blend | Ivory, Sand, Black | Hidden placket; back pleat |
-| 4 | Long tee | Basic | One fit | Cotton-modal jersey | Ivory, Sand, Black, Sage | Flat neck binding |
+| 4 | Fitted tee | Basic (layering) | One fit | Cotton-modal jersey with stretch | Ivory, Sand, Black, Sage | Regular length, close fit, short sleeves; flat neck binding |
 | 5 | Long-sleeve base layer | Basic | One fit | Rib | Black, Ivory, Sand | Thumbhole cuffs |
 | 6 | Longline split top | Core | One fit | Crepe | Sage, Black, Sand | Upper-thigh length, high bound slits, boat neck; co-ord set with #1 |
 | 7 | Long hoodie | Core | One fit | French terry | Sand, Black, Sage | Roomy hood that keeps its shape; dropped shoulder |

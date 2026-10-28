@@ -80,7 +80,8 @@ mix and match so a woman can dress for a full week from EVI alone. Gym wear foll
 
 1. **Fit by body shape.** Key styles, starting with pants, come in cuts for different shapes, with
    rise, waist, hip, and tummy shaped to match. Sizes cover the full range, including plus sizes.
-2. **Modest by design.** Tops long enough to cover the hips, opaque fabrics, and loose-enough cuts.
+2. **Modest by design.** Outer tops long enough to cover the hips, opaque fabrics, and loose-enough cuts;
+   fitted tees and base layers at regular length, made for layering.
 3. **Wash and wear.** Fabrics that resist creasing, need little or no ironing, and survive frequent washing.
 4. **Modern, not traditional.** EVI looks like contemporary city basics (the calm of Oysho and Alo).
    Modesty comes from cut, length, and opacity, never from religious or traditional styling.
