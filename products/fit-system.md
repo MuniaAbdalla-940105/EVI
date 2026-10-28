@@ -29,7 +29,7 @@ Visual version: [EVI Fit System](https://claude.ai/artifact/JZP4SFGupvzf3NaR7EyR
 | Feature | Straight | Curvy | Full |
 | --- | --- | --- | --- |
 | Rise | Mid-high | High | Higher at the front |
-| Waist compared with hip | Standard | About one size smaller | Standard |
+| Waist compared with hip | Standard | About one size smaller | Roomier |
 | Waistband | Flat front, hidden back elastic | Contoured (curved) so the back doesn't gap | Wide and soft, elastic at the back and sides; doesn't dig in or roll |
 | Hip, seat, thigh | Standard | Extra room | Standard, a little more thigh room |
 | Tummy-smoothing inner panel | No | Sizes L to XXXL | All sizes |
