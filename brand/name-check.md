@@ -188,6 +188,17 @@ environment's network settings, or search it in a browser (Brand name: EVI; Nice
 Sources: [WIPO on Egypt's office](https://www.wipo.int/global_ip/en/activities/ip_office_business_solutions/news/2015/news_0004.html),
 [Marcaria Egypt search](https://trademark-search.marcaria.com/en/africa/egypt-trademark-search).
 
+### WIPO Global Brand Database results (founder's search, 2026-10-28)
+
+Unfiltered search for "Evi" (all countries, all classes); first results from the founder's screenshot.
+
+| Mark | Owner | Country | Nice classes | Status | Number | Risk for EVI clothing |
+| --- | --- | --- | --- | --- | --- | --- |
+| Evi (word mark) | جيباس الشرق الأوسط ش م ح (UAE free-zone company) | UAE | 14 (jewellery, watches) | Registered 2023-08-11 | 384840 | Low to medium: different class, but same region and fashion-adjacent; relevant when EVI enters the UAE or adds accessories |
+| evi (logo) | M. Ruiz Nicolas | France | 9, 10, 16 | Expired 2022-01-26 | 3891963 | None |
+
+Still needed: the same search filtered to class 25 and class 35, and to Egypt (EG).
+
 ### Founder favourites (2026-10-23): Saelo, Kanso, Evi
 
 | Name | Finding | Source |
